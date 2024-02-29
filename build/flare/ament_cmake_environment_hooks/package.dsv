@@ -1,0 +1,4 @@
+source;share/flare/local_setup.bash
+source;share/flare/local_setup.dsv
+source;share/flare/local_setup.sh
+source;share/flare/local_setup.zsh

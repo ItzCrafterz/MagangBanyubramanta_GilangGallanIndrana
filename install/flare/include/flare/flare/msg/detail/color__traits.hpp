@@ -1,0 +1,1 @@
+/home/gilang/MagangBanyu/build/flare/rosidl_generator_cpp/flare/msg/detail/color__traits.hpp

@@ -1,0 +1,1 @@
+/home/gilang/MagangBanyu/build/controller/rosidl_typesupport_introspection_cpp/controller/msg/detail/motion__rosidl_typesupport_introspection_cpp.hpp

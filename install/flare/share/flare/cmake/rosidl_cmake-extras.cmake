@@ -1,0 +1,1 @@
+/home/gilang/MagangBanyu/build/flare/rosidl_cmake/rosidl_cmake-extras.cmake

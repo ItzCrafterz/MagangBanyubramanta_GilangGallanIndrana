@@ -1,0 +1,1 @@
+/home/gilang/MagangBanyu/build/controller/rosidl_generator_c/controller/msg/detail/motion__type_support.h

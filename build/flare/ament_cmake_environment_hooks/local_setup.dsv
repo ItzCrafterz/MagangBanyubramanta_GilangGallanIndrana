@@ -1,0 +1,4 @@
+source;share/flare/environment/ament_prefix_path.sh
+source;share/flare/environment/library_path.sh
+source;share/flare/environment/path.sh
+source;share/flare/environment/pythonpath.sh

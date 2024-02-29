@@ -1,0 +1,1 @@
+/home/gilang/MagangBanyu/build/controller/ament_cmake_core/controllerConfig-version.cmake

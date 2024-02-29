@@ -1,0 +1,1 @@
+/home/gilang/MagangBanyu/build/flare/rosidl_generator_py/flare/_flare_s.ep.rosidl_typesupport_c.c

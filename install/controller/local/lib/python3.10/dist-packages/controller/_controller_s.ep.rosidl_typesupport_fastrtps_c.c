@@ -1,0 +1,1 @@
+/home/gilang/MagangBanyu/build/controller/rosidl_generator_py/controller/_controller_s.ep.rosidl_typesupport_fastrtps_c.c

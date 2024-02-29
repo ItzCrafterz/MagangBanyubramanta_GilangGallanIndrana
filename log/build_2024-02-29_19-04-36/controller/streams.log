@@ -1,0 +1,222 @@
+[0.068s] Invoking command in '/home/gilang/MagangBanyu/build/controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/gilang/ros2_ws/install/joystick_ros2:/opt/ros/humble /usr/bin/cmake /home/gilang/MagangBanyu/src/controller -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/gilang/MagangBanyu/install/controller
+[0.136s] -- The C compiler identification is GNU 11.4.0
+[0.201s] -- The CXX compiler identification is GNU 11.4.0
+[0.210s] -- Detecting C compiler ABI info
+[0.293s] -- Detecting C compiler ABI info - done
+[0.302s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.302s] -- Detecting C compile features
+[0.302s] -- Detecting C compile features - done
+[0.306s] -- Detecting CXX compiler ABI info
+[0.402s] -- Detecting CXX compiler ABI info - done
+[0.411s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.412s] -- Detecting CXX compile features
+[0.413s] -- Detecting CXX compile features - done
+[0.415s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.830s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.908s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.943s] -- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)
+[0.986s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.992s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.002s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.018s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.041s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.309s] -- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)
+[1.382s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.385s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.496s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.529s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.589s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.600s] -- Looking for pthread.h
+[1.686s] -- Looking for pthread.h - found
+[1.686s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.775s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.777s] -- Found Threads: TRUE  
+[1.928s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[2.245s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[2.619s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.765s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.793s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[2.795s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[2.825s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[2.825s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.825s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[2.826s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[2.854s] -- Found PythonExtra: .so  
+[2.899s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.946s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.946s] -- Configured cppcheck include dirs: 
+[2.947s] -- Configured cppcheck exclude dirs and/or files: 
+[2.958s] -- Added test 'lint_cmake' to check CMake code style
+[2.987s] -- Added test 'uncrustify' to check C / C++ code style
+[2.987s] -- Configured uncrustify additional arguments: 
+[2.990s] -- Added test 'xmllint' to check XML markup files
+[2.994s] -- Configuring done
+[3.025s] -- Generating done
+[3.028s] -- Build files have been written to: /home/gilang/MagangBanyu/build/controller
+[3.040s] Invoked command in '/home/gilang/MagangBanyu/build/controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/gilang/ros2_ws/install/joystick_ros2:/opt/ros/humble /usr/bin/cmake /home/gilang/MagangBanyu/src/controller -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/gilang/MagangBanyu/install/controller
+[3.043s] Invoking command in '/home/gilang/MagangBanyu/build/controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/gilang/ros2_ws/install/joystick_ros2:/opt/ros/humble /usr/bin/cmake --build /home/gilang/MagangBanyu/build/controller -- -j12 -l12
+[3.092s] [  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[3.107s] [  6%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[3.121s] [  6%] Built target ament_cmake_python_symlink_controller
+[3.428s] running egg_info
+[3.430s] creating controller.egg-info
+[3.452s] writing controller.egg-info/PKG-INFO
+[3.452s] writing dependency_links to controller.egg-info/dependency_links.txt
+[3.453s] writing top-level names to controller.egg-info/top_level.txt
+[3.453s] writing manifest file 'controller.egg-info/SOURCES.txt'
+[3.502s] [  6%] Built target controller__cpp
+[3.512s] [  9%] [32mBuilding C object CMakeFiles/controller__rosidl_generator_c.dir/rosidl_generator_c/controller/msg/detail/motion__functions.c.o[0m
+[3.518s] [ 12%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[3.522s] [ 18%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[3.522s] [ 18%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[3.522s] reading manifest file 'controller.egg-info/SOURCES.txt'
+[3.523s] writing manifest file 'controller.egg-info/SOURCES.txt'
+[3.576s] [ 18%] Built target ament_cmake_python_build_controller_egg
+[3.594s] [ 21%] [32m[1mLinking C shared library libcontroller__rosidl_generator_c.so[0m
+[3.658s] [ 21%] Built target controller__rosidl_generator_c
+[3.676s] [ 24%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[3.680s] [ 30%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[3.680s] [ 30%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[3.936s] [ 33%] [32mBuilding CXX object CMakeFiles/controller__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/controller/msg/motion__type_support.cpp.o[0m
+[3.975s] [ 36%] [32mBuilding CXX object CMakeFiles/controller__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/controller/msg/detail/motion__type_support.cpp.o[0m
+[3.991s] [ 39%] [32mBuilding CXX object CMakeFiles/controller__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/controller/msg/detail/dds_fastrtps/motion__type_support.cpp.o[0m
+[4.145s] [ 42%] [32mBuilding CXX object CMakeFiles/controller__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/controller/msg/detail/motion__type_support_c.cpp.o[0m
+[4.249s] [ 45%] [32mBuilding CXX object CMakeFiles/controller__rosidl_typesupport_c.dir/rosidl_typesupport_c/controller/msg/motion__type_support.cpp.o[0m
+[4.303s] [ 48%] [32mBuilding C object CMakeFiles/controller__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/controller/msg/detail/motion__type_support.c.o[0m
+[4.316s] [ 51%] [32m[1mLinking CXX shared library libcontroller__rosidl_typesupport_c.so[0m
+[4.378s] [ 54%] [32m[1mLinking C shared library libcontroller__rosidl_typesupport_introspection_c.so[0m
+[4.397s] [ 57%] [32m[1mLinking CXX shared library libcontroller__rosidl_typesupport_cpp.so[0m
+[4.411s] [ 57%] Built target controller__rosidl_typesupport_c
+[4.448s] [ 57%] Built target controller__rosidl_typesupport_introspection_c
+[4.475s] [ 57%] Built target controller__rosidl_typesupport_cpp
+[4.510s] [ 60%] [32mBuilding CXX object CMakeFiles/publisher.dir/src/robot_controller.cpp.o[0m
+[4.610s] [ 63%] [32m[1mLinking CXX shared library libcontroller__rosidl_typesupport_introspection_cpp.so[0m
+[4.652s] [ 66%] [32m[1mLinking CXX shared library libcontroller__rosidl_typesupport_fastrtps_cpp.so[0m
+[4.679s] [ 66%] Built target controller__rosidl_typesupport_introspection_cpp
+[4.701s] [ 69%] [32m[1mLinking CXX shared library libcontroller__rosidl_typesupport_fastrtps_c.so[0m
+[4.779s] [ 69%] Built target controller__rosidl_typesupport_fastrtps_cpp
+[4.823s] [ 69%] Built target controller__rosidl_typesupport_fastrtps_c
+[4.852s] [ 69%] Built target controller
+[4.881s] [ 72%] [34m[1mGenerating Python code for ROS interfaces[0m
+[5.293s] [ 72%] Built target controller__py
+[5.322s] [ 75%] [32mBuilding C object CMakeFiles/controller__rosidl_generator_py.dir/rosidl_generator_py/controller/msg/_motion_s.c.o[0m
+[5.456s] [ 78%] [32m[1mLinking C shared library rosidl_generator_py/controller/libcontroller__rosidl_generator_py.so[0m
+[5.511s] [ 78%] Built target controller__rosidl_generator_py
+[5.543s] [ 81%] [32mBuilding C object CMakeFiles/controller__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/controller/_controller_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[5.544s] [ 84%] [32mBuilding C object CMakeFiles/controller__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/controller/_controller_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[5.544s] [ 87%] [32mBuilding C object CMakeFiles/controller__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/controller/_controller_s.ep.rosidl_typesupport_c.c.o[0m
+[5.694s] [ 90%] [32m[1mLinking C shared library rosidl_generator_py/controller/controller_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[5.697s] [ 93%] [32m[1mLinking C shared library rosidl_generator_py/controller/controller_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[5.701s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/controller/controller_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[5.748s] [ 96%] Built target controller__rosidl_typesupport_c__pyext
+[5.751s] [ 96%] Built target controller__rosidl_typesupport_introspection_c__pyext
+[5.757s] [ 96%] Built target controller__rosidl_typesupport_fastrtps_c__pyext
+[13.580s] [100%] [32m[1mLinking CXX executable publisher[0m
+[14.052s] [100%] Built target publisher
+[14.067s] Invoked command in '/home/gilang/MagangBanyu/build/controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/gilang/ros2_ws/install/joystick_ros2:/opt/ros/humble /usr/bin/cmake --build /home/gilang/MagangBanyu/build/controller -- -j12 -l12
+[14.154s] Invoking command in '/home/gilang/MagangBanyu/build/controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/gilang/ros2_ws/install/joystick_ros2:/opt/ros/humble /usr/bin/cmake --install /home/gilang/MagangBanyu/build/controller
+[14.162s] -- Install configuration: ""
+[14.163s] -- Execute custom install script
+[14.164s] -- Symlinking: /home/gilang/MagangBanyu/install/controller/share/ament_index/resource_index/rosidl_interfaces/controller
+[14.174s] -- Symlinking: /home/gilang/MagangBanyu/install/controller/include/controller/controller/msg/detail/motion__functions.h
+[14.184s] -- Symlinking: /home/gilang/MagangBanyu/install/controller/include/controller/controller/msg/detail/motion__struct.h
+[14.196s] -- Symlinking: /home/gilang/MagangBanyu/install/controller/include/controller/controller/msg/detail/motion__type_support.h
+[14.206s] -- Symlinking: /home/gilang/MagangBanyu/install/controller/include/controller/controller/msg/motion.h
+[14.215s] -- Symlinking: /home/gilang/MagangBanyu/install/controller/include/controller/controller/msg/rosidl_generator_c__visibility_control.h
+[14.225s] -- Symlinking: /home/gilang/MagangBanyu/install/controller/share/controller/environment/library_path.sh
+[14.234s] -- Symlinking: /home/gilang/MagangBanyu/install/controller/share/controller/environment/library_path.dsv
+[14.244s] -- Symlinking: /home/gilang/MagangBanyu/install/controller/include/controller/controller/msg/detail/motion__rosidl_typesupport_fastrtps_c.h
+[14.254s] -- Symlinking: /home/gilang/MagangBanyu/install/controller/include/controller/controller/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[14.263s] -- Symlinking: /home/gilang/MagangBanyu/install/controller/include/controller/controller/msg/detail/motion__builder.hpp
+[14.273s] -- Symlinking: /home/gilang/MagangBanyu/install/controller/include/controller/controller/msg/detail/motion__struct.hpp
+[14.283s] -- Symlinking: /home/gilang/MagangBanyu/install/controller/include/controller/controller/msg/detail/motion__traits.hpp
+[14.294s] -- Symlinking: /home/gilang/MagangBanyu/install/controller/include/controller/controller/msg/motion.hpp
+[14.304s] -- Symlinking: /home/gilang/MagangBanyu/install/controller/include/controller/controller/msg/detail/motion__rosidl_typesupport_fastrtps_cpp.hpp
+[14.313s] -- Symlinking: /home/gilang/MagangBanyu/install/controller/include/controller/controller/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[14.323s] -- Symlinking: /home/gilang/MagangBanyu/install/controller/include/controller/controller/msg/detail/motion__rosidl_typesupport_introspection_c.h
+[14.332s] -- Symlinking: /home/gilang/MagangBanyu/install/controller/include/controller/controller/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[14.342s] -- Symlinking: /home/gilang/MagangBanyu/install/controller/include/controller/controller/msg/detail/motion__rosidl_typesupport_introspection_cpp.hpp
+[14.353s] -- Symlinking: /home/gilang/MagangBanyu/install/controller/share/controller/environment/pythonpath.sh
+[14.363s] -- Symlinking: /home/gilang/MagangBanyu/install/controller/share/controller/environment/pythonpath.dsv
+[14.373s] -- Symlinking: /home/gilang/MagangBanyu/install/controller/local/lib/python3.10/dist-packages/controller-0.0.0-py3.10.egg-info/PKG-INFO
+[14.383s] -- Symlinking: /home/gilang/MagangBanyu/install/controller/local/lib/python3.10/dist-packages/controller-0.0.0-py3.10.egg-info/SOURCES.txt
+[14.394s] -- Symlinking: /home/gilang/MagangBanyu/install/controller/local/lib/python3.10/dist-packages/controller-0.0.0-py3.10.egg-info/dependency_links.txt
+[14.405s] -- Symlinking: /home/gilang/MagangBanyu/install/controller/local/lib/python3.10/dist-packages/controller-0.0.0-py3.10.egg-info/top_level.txt
+[14.416s] -- Symlinking: /home/gilang/MagangBanyu/install/controller/local/lib/python3.10/dist-packages/controller/__init__.py
+[14.425s] -- Symlinking: /home/gilang/MagangBanyu/install/controller/local/lib/python3.10/dist-packages/controller/_controller_s.ep.rosidl_typesupport_c.c
+[14.435s] -- Symlinking: /home/gilang/MagangBanyu/install/controller/local/lib/python3.10/dist-packages/controller/_controller_s.ep.rosidl_typesupport_fastrtps_c.c
+[14.444s] -- Symlinking: /home/gilang/MagangBanyu/install/controller/local/lib/python3.10/dist-packages/controller/_controller_s.ep.rosidl_typesupport_introspection_c.c
+[14.454s] -- Symlinking: /home/gilang/MagangBanyu/install/controller/local/lib/python3.10/dist-packages/controller/controller_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[14.463s] -- Symlinking: /home/gilang/MagangBanyu/install/controller/local/lib/python3.10/dist-packages/controller/controller_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[14.473s] -- Symlinking: /home/gilang/MagangBanyu/install/controller/local/lib/python3.10/dist-packages/controller/controller_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[14.483s] -- Symlinking: /home/gilang/MagangBanyu/install/controller/local/lib/python3.10/dist-packages/controller/libcontroller__rosidl_generator_py.so
+[14.494s] -- Symlinking: /home/gilang/MagangBanyu/install/controller/local/lib/python3.10/dist-packages/controller/msg/__init__.py
+[14.504s] -- Symlinking: /home/gilang/MagangBanyu/install/controller/local/lib/python3.10/dist-packages/controller/msg/_motion.py
+[14.513s] -- Symlinking: /home/gilang/MagangBanyu/install/controller/local/lib/python3.10/dist-packages/controller/msg/_motion_s.c
+[14.523s] -- Up-to-date symlink: /home/gilang/MagangBanyu/install/controller/local/lib/python3.10/dist-packages/controller/controller_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[14.523s] -- Up-to-date symlink: /home/gilang/MagangBanyu/install/controller/local/lib/python3.10/dist-packages/controller/controller_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[14.523s] -- Up-to-date symlink: /home/gilang/MagangBanyu/install/controller/local/lib/python3.10/dist-packages/controller/controller_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[14.523s] -- Symlinking: /home/gilang/MagangBanyu/install/controller/share/controller/msg/Motion.idl
+[14.533s] -- Symlinking: /home/gilang/MagangBanyu/install/controller/share/controller/msg/Motion.msg
+[14.542s] -- Symlinking: /home/gilang/MagangBanyu/install/controller/lib/controller/publisher
+[14.552s] -- Symlinking: /home/gilang/MagangBanyu/install/controller/share/ament_index/resource_index/package_run_dependencies/controller
+[14.561s] -- Symlinking: /home/gilang/MagangBanyu/install/controller/share/ament_index/resource_index/parent_prefix_path/controller
+[14.570s] -- Symlinking: /home/gilang/MagangBanyu/install/controller/share/controller/environment/ament_prefix_path.sh
+[14.580s] -- Symlinking: /home/gilang/MagangBanyu/install/controller/share/controller/environment/ament_prefix_path.dsv
+[14.590s] -- Symlinking: /home/gilang/MagangBanyu/install/controller/share/controller/environment/path.sh
+[14.601s] -- Symlinking: /home/gilang/MagangBanyu/install/controller/share/controller/environment/path.dsv
+[14.610s] -- Symlinking: /home/gilang/MagangBanyu/install/controller/share/controller/local_setup.bash
+[14.620s] -- Symlinking: /home/gilang/MagangBanyu/install/controller/share/controller/local_setup.sh
+[14.629s] -- Symlinking: /home/gilang/MagangBanyu/install/controller/share/controller/local_setup.zsh
+[14.639s] -- Symlinking: /home/gilang/MagangBanyu/install/controller/share/controller/local_setup.dsv
+[14.648s] -- Symlinking: /home/gilang/MagangBanyu/install/controller/share/controller/package.dsv
+[14.657s] -- Symlinking: /home/gilang/MagangBanyu/install/controller/share/ament_index/resource_index/packages/controller
+[14.667s] -- Symlinking: /home/gilang/MagangBanyu/install/controller/share/controller/cmake/rosidl_cmake-extras.cmake
+[14.676s] -- Symlinking: /home/gilang/MagangBanyu/install/controller/share/controller/cmake/ament_cmake_export_include_directories-extras.cmake
+[14.686s] -- Symlinking: /home/gilang/MagangBanyu/install/controller/share/controller/cmake/ament_cmake_export_libraries-extras.cmake
+[14.698s] -- Symlinking: /home/gilang/MagangBanyu/install/controller/share/controller/cmake/ament_cmake_export_targets-extras.cmake
+[14.708s] -- Symlinking: /home/gilang/MagangBanyu/install/controller/share/controller/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[14.717s] -- Symlinking: /home/gilang/MagangBanyu/install/controller/share/controller/cmake/ament_cmake_export_dependencies-extras.cmake
+[14.727s] -- Symlinking: /home/gilang/MagangBanyu/install/controller/share/controller/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[14.736s] -- Symlinking: /home/gilang/MagangBanyu/install/controller/share/controller/cmake/controllerConfig.cmake
+[14.745s] -- Symlinking: /home/gilang/MagangBanyu/install/controller/share/controller/cmake/controllerConfig-version.cmake
+[14.754s] -- Symlinking: /home/gilang/MagangBanyu/install/controller/share/controller/package.xml
+[14.764s] -- Installing: /home/gilang/MagangBanyu/install/controller/lib/libcontroller__rosidl_generator_c.so
+[14.764s] -- Set runtime path of "/home/gilang/MagangBanyu/install/controller/lib/libcontroller__rosidl_generator_c.so" to ""
+[14.764s] -- Installing: /home/gilang/MagangBanyu/install/controller/lib/libcontroller__rosidl_typesupport_fastrtps_c.so
+[14.764s] -- Set runtime path of "/home/gilang/MagangBanyu/install/controller/lib/libcontroller__rosidl_typesupport_fastrtps_c.so" to ""
+[14.764s] -- Installing: /home/gilang/MagangBanyu/install/controller/lib/libcontroller__rosidl_typesupport_fastrtps_cpp.so
+[14.764s] -- Set runtime path of "/home/gilang/MagangBanyu/install/controller/lib/libcontroller__rosidl_typesupport_fastrtps_cpp.so" to ""
+[14.764s] -- Installing: /home/gilang/MagangBanyu/install/controller/lib/libcontroller__rosidl_typesupport_introspection_c.so
+[14.765s] -- Set runtime path of "/home/gilang/MagangBanyu/install/controller/lib/libcontroller__rosidl_typesupport_introspection_c.so" to ""
+[14.765s] -- Installing: /home/gilang/MagangBanyu/install/controller/lib/libcontroller__rosidl_typesupport_c.so
+[14.765s] -- Set runtime path of "/home/gilang/MagangBanyu/install/controller/lib/libcontroller__rosidl_typesupport_c.so" to ""
+[14.765s] -- Installing: /home/gilang/MagangBanyu/install/controller/lib/libcontroller__rosidl_typesupport_introspection_cpp.so
+[14.765s] -- Set runtime path of "/home/gilang/MagangBanyu/install/controller/lib/libcontroller__rosidl_typesupport_introspection_cpp.so" to ""
+[14.765s] -- Installing: /home/gilang/MagangBanyu/install/controller/lib/libcontroller__rosidl_typesupport_cpp.so
+[14.765s] -- Set runtime path of "/home/gilang/MagangBanyu/install/controller/lib/libcontroller__rosidl_typesupport_cpp.so" to ""
+[14.809s] Listing '/home/gilang/MagangBanyu/install/controller/local/lib/python3.10/dist-packages/controller'...
+[14.809s] Compiling '/home/gilang/MagangBanyu/install/controller/local/lib/python3.10/dist-packages/controller/__init__.py'...
+[14.809s] Listing '/home/gilang/MagangBanyu/install/controller/local/lib/python3.10/dist-packages/controller/msg'...
+[14.809s] Compiling '/home/gilang/MagangBanyu/install/controller/local/lib/python3.10/dist-packages/controller/msg/__init__.py'...
+[14.809s] Compiling '/home/gilang/MagangBanyu/install/controller/local/lib/python3.10/dist-packages/controller/msg/_motion.py'...
+[14.814s] -- Installing: /home/gilang/MagangBanyu/install/controller/lib/libcontroller__rosidl_generator_py.so
+[14.814s] -- Set runtime path of "/home/gilang/MagangBanyu/install/controller/lib/libcontroller__rosidl_generator_py.so" to ""
+[14.814s] -- Installing: /home/gilang/MagangBanyu/install/controller/share/controller/cmake/export_controller__rosidl_generator_cExport.cmake
+[14.815s] -- Installing: /home/gilang/MagangBanyu/install/controller/share/controller/cmake/export_controller__rosidl_generator_cExport-noconfig.cmake
+[14.815s] -- Installing: /home/gilang/MagangBanyu/install/controller/share/controller/cmake/export_controller__rosidl_typesupport_fastrtps_cExport.cmake
+[14.815s] -- Installing: /home/gilang/MagangBanyu/install/controller/share/controller/cmake/export_controller__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[14.815s] -- Installing: /home/gilang/MagangBanyu/install/controller/share/controller/cmake/export_controller__rosidl_generator_cppExport.cmake
+[14.815s] -- Installing: /home/gilang/MagangBanyu/install/controller/share/controller/cmake/export_controller__rosidl_typesupport_fastrtps_cppExport.cmake
+[14.815s] -- Installing: /home/gilang/MagangBanyu/install/controller/share/controller/cmake/export_controller__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[14.815s] -- Installing: /home/gilang/MagangBanyu/install/controller/share/controller/cmake/controller__rosidl_typesupport_introspection_cExport.cmake
+[14.815s] -- Installing: /home/gilang/MagangBanyu/install/controller/share/controller/cmake/controller__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[14.815s] -- Installing: /home/gilang/MagangBanyu/install/controller/share/controller/cmake/controller__rosidl_typesupport_cExport.cmake
+[14.815s] -- Installing: /home/gilang/MagangBanyu/install/controller/share/controller/cmake/controller__rosidl_typesupport_cExport-noconfig.cmake
+[14.816s] -- Installing: /home/gilang/MagangBanyu/install/controller/share/controller/cmake/controller__rosidl_typesupport_introspection_cppExport.cmake
+[14.816s] -- Installing: /home/gilang/MagangBanyu/install/controller/share/controller/cmake/controller__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[14.816s] -- Installing: /home/gilang/MagangBanyu/install/controller/share/controller/cmake/controller__rosidl_typesupport_cppExport.cmake
+[14.816s] -- Installing: /home/gilang/MagangBanyu/install/controller/share/controller/cmake/controller__rosidl_typesupport_cppExport-noconfig.cmake
+[14.816s] -- Installing: /home/gilang/MagangBanyu/install/controller/share/controller/cmake/export_controller__rosidl_generator_pyExport.cmake
+[14.816s] -- Installing: /home/gilang/MagangBanyu/install/controller/share/controller/cmake/export_controller__rosidl_generator_pyExport-noconfig.cmake
+[14.819s] Invoked command in '/home/gilang/MagangBanyu/build/controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/gilang/ros2_ws/install/joystick_ros2:/opt/ros/humble /usr/bin/cmake --install /home/gilang/MagangBanyu/build/controller

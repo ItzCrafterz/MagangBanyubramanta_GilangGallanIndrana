@@ -1,0 +1,1 @@
+/home/gilang/MagangBanyu/build/controller/rosidl_generator_py/controller/msg/__init__.py
