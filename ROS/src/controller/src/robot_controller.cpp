@@ -28,6 +28,8 @@ private:
         motion_msg->yaw = msg->axes[3] * 500;
         motion_msg->depth = msg->axes[4] * 500;
 
+        
+
         publisher_->publish(std::move(motion_msg));
         RCLCPP_INFO(this->get_logger(), "Publishing successful.");
     }
