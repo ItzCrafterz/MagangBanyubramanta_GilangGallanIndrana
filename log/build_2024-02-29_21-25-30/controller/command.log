@@ -1,0 +1,4 @@
+Invoking command in '/home/gilang/MagangBanyu/build/controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/gilang/ros2_ws/install/joystick_ros2:/opt/ros/humble /usr/bin/cmake --build /home/gilang/MagangBanyu/build/controller -- -j12 -l12
+Invoked command in '/home/gilang/MagangBanyu/build/controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/gilang/ros2_ws/install/joystick_ros2:/opt/ros/humble /usr/bin/cmake --build /home/gilang/MagangBanyu/build/controller -- -j12 -l12
+Invoking command in '/home/gilang/MagangBanyu/build/controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/gilang/ros2_ws/install/joystick_ros2:/opt/ros/humble /usr/bin/cmake --install /home/gilang/MagangBanyu/build/controller
+Invoked command in '/home/gilang/MagangBanyu/build/controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/gilang/ros2_ws/install/joystick_ros2:/opt/ros/humble /usr/bin/cmake --install /home/gilang/MagangBanyu/build/controller

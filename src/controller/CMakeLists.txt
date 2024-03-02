@@ -17,19 +17,17 @@ rosidl_generate_interfaces(${PROJECT_NAME}
 
 ament_export_dependencies(rosidl_default_runtime)
 
-add_executable(publisher src/robot_controller.cpp)
-ament_target_dependencies(publisher rclcpp sensor_msgs)
+add_executable(control src/robot_controller.cpp)
+ament_target_dependencies(control rclcpp sensor_msgs)
 
 install(TARGETS
-  publisher
+  control
   DESTINATION lib/${PROJECT_NAME})
 
 rosidl_get_typesupport_target(cpp_typesupport_target
   ${PROJECT_NAME} rosidl_typesupport_cpp)
 
-target_link_libraries(publisher "${cpp_typesupport_target}")
-
-
+target_link_libraries(control "${cpp_typesupport_target}")
 
 if(BUILD_TESTING)
   find_package(ament_lint_auto REQUIRED)

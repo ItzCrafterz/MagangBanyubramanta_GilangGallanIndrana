@@ -39,7 +39,7 @@
 /home/gilang/MagangBanyu/install/controller/local/lib/python3.10/dist-packages/controller/controller_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
 /home/gilang/MagangBanyu/install/controller/share/controller/msg/Motion.idl
 /home/gilang/MagangBanyu/install/controller/share/controller/msg/Motion.msg
-/home/gilang/MagangBanyu/install/controller/lib/controller/publisher
+/home/gilang/MagangBanyu/install/controller/lib/controller/control
 /home/gilang/MagangBanyu/install/controller/share/ament_index/resource_index/package_run_dependencies/controller
 /home/gilang/MagangBanyu/install/controller/share/ament_index/resource_index/parent_prefix_path/controller
 /home/gilang/MagangBanyu/install/controller/share/controller/environment/ament_prefix_path.sh

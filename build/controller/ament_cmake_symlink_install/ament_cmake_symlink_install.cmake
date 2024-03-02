@@ -364,7 +364,7 @@ ament_cmake_symlink_install_files("/home/gilang/MagangBanyu/src/controller" FILE
 # install(FILES "/home/gilang/MagangBanyu/src/controller/msg/Motion.msg" "DESTINATION" "share/controller/msg")
 ament_cmake_symlink_install_files("/home/gilang/MagangBanyu/src/controller" FILES "/home/gilang/MagangBanyu/src/controller/msg/Motion.msg" "DESTINATION" "share/controller/msg")
 
-# install("TARGETS" "publisher" "DESTINATION" "lib/controller")
+# install("TARGETS" "control" "DESTINATION" "lib/controller")
 include("/home/gilang/MagangBanyu/build/controller/ament_cmake_symlink_install_targets_3_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
 
 # install(FILES "/home/gilang/MagangBanyu/build/controller/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/controller" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")

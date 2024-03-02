@@ -393,17 +393,17 @@ controller__rosidl_typesupport_c__pyext/fast:
 .PHONY : controller__rosidl_typesupport_c__pyext/fast
 
 #=============================================================================
-# Target rules for targets named publisher
+# Target rules for targets named control
 
 # Build rule for target.
-publisher: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 publisher
-.PHONY : publisher
+control: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 control
+.PHONY : control
 
 # fast build rule for target.
-publisher/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/publisher.dir/build.make CMakeFiles/publisher.dir/build
-.PHONY : publisher/fast
+control/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/control.dir/build.make CMakeFiles/control.dir/build
+.PHONY : control/fast
 
 #=============================================================================
 # Target rules for targets named controller__py
@@ -687,7 +687,7 @@ src/robot_controller.o: src/robot_controller.cpp.o
 
 # target to build an object file
 src/robot_controller.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/publisher.dir/build.make CMakeFiles/publisher.dir/src/robot_controller.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/control.dir/build.make CMakeFiles/control.dir/src/robot_controller.cpp.o
 .PHONY : src/robot_controller.cpp.o
 
 src/robot_controller.i: src/robot_controller.cpp.i
@@ -695,7 +695,7 @@ src/robot_controller.i: src/robot_controller.cpp.i
 
 # target to preprocess a source file
 src/robot_controller.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/publisher.dir/build.make CMakeFiles/publisher.dir/src/robot_controller.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/control.dir/build.make CMakeFiles/control.dir/src/robot_controller.cpp.i
 .PHONY : src/robot_controller.cpp.i
 
 src/robot_controller.s: src/robot_controller.cpp.s
@@ -703,7 +703,7 @@ src/robot_controller.s: src/robot_controller.cpp.s
 
 # target to generate assembly for a file
 src/robot_controller.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/publisher.dir/build.make CMakeFiles/publisher.dir/src/robot_controller.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/control.dir/build.make CMakeFiles/control.dir/src/robot_controller.cpp.s
 .PHONY : src/robot_controller.cpp.s
 
 # Help Target
@@ -726,6 +726,7 @@ help:
 	@echo "... controller__py"
 	@echo "... controller_uninstall"
 	@echo "... uninstall"
+	@echo "... control"
 	@echo "... controller__rosidl_generator_c"
 	@echo "... controller__rosidl_generator_py"
 	@echo "... controller__rosidl_typesupport_c"
@@ -737,7 +738,6 @@ help:
 	@echo "... controller__rosidl_typesupport_introspection_c"
 	@echo "... controller__rosidl_typesupport_introspection_c__pyext"
 	@echo "... controller__rosidl_typesupport_introspection_cpp"
-	@echo "... publisher"
 	@echo "... rosidl_generator_c/controller/msg/detail/motion__functions.o"
 	@echo "... rosidl_generator_c/controller/msg/detail/motion__functions.i"
 	@echo "... rosidl_generator_c/controller/msg/detail/motion__functions.s"

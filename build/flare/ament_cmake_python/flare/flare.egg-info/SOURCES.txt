@@ -4,3 +4,5 @@ flare.egg-info/PKG-INFO
 flare.egg-info/SOURCES.txt
 flare.egg-info/dependency_links.txt
 flare.egg-info/top_level.txt
+flare/msg/__init__.py
+flare/msg/_color.py

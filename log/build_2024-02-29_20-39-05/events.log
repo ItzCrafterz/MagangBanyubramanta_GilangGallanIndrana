@@ -1,0 +1,535 @@
+[0.000000] (-) TimerEvent: {}
+[0.000303] (controller) JobQueued: {'identifier': 'controller', 'dependencies': OrderedDict()}
+[0.000391] (flare) JobQueued: {'identifier': 'flare', 'dependencies': OrderedDict()}
+[0.000804] (controller) JobStarted: {'identifier': 'controller'}
+[0.098436] (-) TimerEvent: {}
+[0.102703] (flare) JobStarted: {'identifier': 'flare'}
+[0.198698] (-) TimerEvent: {}
+[0.244898] (controller) JobProgress: {'identifier': 'controller', 'progress': 'cmake'}
+[0.248177] (controller) Command: {'cmd': ['/usr/bin/cmake', '/home/gilang/MagangBanyu/src/controller', '-DCMAKE_INSTALL_PREFIX=/home/gilang/MagangBanyu/install/controller'], 'cwd': '/home/gilang/MagangBanyu/build/controller', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'gilang'), ('LC_TIME', 'id_ID.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/gilang/ros2_ws/install/pub_controller/lib:/home/gilang/ros2_ws/install/opencv/lib:/home/gilang/ros2_ws/install/flare/lib:/home/gilang/ros2_ws/install/controller/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/gilang'), ('OLDPWD', '/home/gilang'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'id_ID.UTF-8'), ('MANAGERPID', '1125'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1256'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=dce0118f2d01286cf8b60ff665e0d094'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/gilang/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'gilang'), ('JOURNAL_STREAM', '8:30065'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'gilang'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/gilang/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/gilang-LOQ-15IRH8:@/tmp/.ICE-unix/1256,unix/gilang-LOQ-15IRH8:/tmp/.ICE-unix/1256'), ('INVOCATION_ID', 'd8dbffc2657643a4b0f4826da91ab576'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'id_ID.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'id_ID.UTF-8'), ('TILIX_ID', 'f890c430-efc7-45a1-945d-e09b23fa79d7'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.OJOBK2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/gilang/ros2_ws/install/pub_controller:/home/gilang/ros2_ws/install/opencv:/home/gilang/ros2_ws/install/joystick_ros2:/home/gilang/ros2_ws/install/flare:/home/gilang/ros2_ws/install/cpp_pubsub:/home/gilang/ros2_ws/install/controller:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'id_ID.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'id_ID.UTF-8'), ('LC_IDENTIFICATION', 'id_ID.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/gilang/MagangBanyu/build/controller'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=dce0118f2d01286cf8b60ff665e0d094'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/gilang/ros2_ws/install/pub_controller/local/lib/python3.10/dist-packages:/home/gilang/ros2_ws/install/opencv/local/lib/python3.10/dist-packages:/home/gilang/ros2_ws/install/joystick_ros2/lib/python3.10/site-packages:/home/gilang/ros2_ws/install/flare/local/lib/python3.10/dist-packages:/home/gilang/ros2_ws/install/controller/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'id_ID.UTF-8'), ('LC_PAPER', 'id_ID.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/gilang/ros2_ws/install/pub_controller:/home/gilang/ros2_ws/install/opencv:/home/gilang/ros2_ws/install/flare:/home/gilang/ros2_ws/install/cpp_pubsub:/home/gilang/ros2_ws/install/controller:/home/gilang/ros2_ws/install/joystick_ros2:/opt/ros/humble')]), 'shell': False}
+[0.262108] (flare) JobProgress: {'identifier': 'flare', 'progress': 'cmake'}
+[0.264854] (flare) Command: {'cmd': ['/usr/bin/cmake', '/home/gilang/MagangBanyu/src/flare', '-DCMAKE_INSTALL_PREFIX=/home/gilang/MagangBanyu/install/flare'], 'cwd': '/home/gilang/MagangBanyu/build/flare', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'gilang'), ('LC_TIME', 'id_ID.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/gilang/ros2_ws/install/pub_controller/lib:/home/gilang/ros2_ws/install/opencv/lib:/home/gilang/ros2_ws/install/flare/lib:/home/gilang/ros2_ws/install/controller/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/gilang'), ('OLDPWD', '/home/gilang'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'id_ID.UTF-8'), ('MANAGERPID', '1125'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1256'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=dce0118f2d01286cf8b60ff665e0d094'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/gilang/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'gilang'), ('JOURNAL_STREAM', '8:30065'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'gilang'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/gilang/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/gilang-LOQ-15IRH8:@/tmp/.ICE-unix/1256,unix/gilang-LOQ-15IRH8:/tmp/.ICE-unix/1256'), ('INVOCATION_ID', 'd8dbffc2657643a4b0f4826da91ab576'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'id_ID.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'id_ID.UTF-8'), ('TILIX_ID', 'f890c430-efc7-45a1-945d-e09b23fa79d7'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.OJOBK2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/gilang/ros2_ws/install/pub_controller:/home/gilang/ros2_ws/install/opencv:/home/gilang/ros2_ws/install/joystick_ros2:/home/gilang/ros2_ws/install/flare:/home/gilang/ros2_ws/install/cpp_pubsub:/home/gilang/ros2_ws/install/controller:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'id_ID.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'id_ID.UTF-8'), ('LC_IDENTIFICATION', 'id_ID.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/gilang/MagangBanyu/build/flare'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=dce0118f2d01286cf8b60ff665e0d094'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/gilang/ros2_ws/install/pub_controller/local/lib/python3.10/dist-packages:/home/gilang/ros2_ws/install/opencv/local/lib/python3.10/dist-packages:/home/gilang/ros2_ws/install/joystick_ros2/lib/python3.10/site-packages:/home/gilang/ros2_ws/install/flare/local/lib/python3.10/dist-packages:/home/gilang/ros2_ws/install/controller/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'id_ID.UTF-8'), ('LC_PAPER', 'id_ID.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/gilang/ros2_ws/install/pub_controller:/home/gilang/ros2_ws/install/opencv:/home/gilang/ros2_ws/install/flare:/home/gilang/ros2_ws/install/cpp_pubsub:/home/gilang/ros2_ws/install/controller:/home/gilang/ros2_ws/install/joystick_ros2:/opt/ros/humble')]), 'shell': False}
+[0.292881] (controller) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.298844] (-) TimerEvent: {}
+[0.304862] (flare) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.399081] (-) TimerEvent: {}
+[0.499744] (-) TimerEvent: {}
+[0.600609] (-) TimerEvent: {}
+[0.701329] (-) TimerEvent: {}
+[0.714471] (controller) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.717261] (flare) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.733506] (controller) StdoutLine: {'line': b'-- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[0.739966] (flare) StdoutLine: {'line': b'-- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.801595] (-) TimerEvent: {}
+[0.811741] (controller) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.818624] (controller) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.837840] (controller) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.842578] (flare) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.850898] (flare) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.877118] (controller) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.880298] (flare) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.901766] (-) TimerEvent: {}
+[0.927790] (flare) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.935674] (controller) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.983204] (flare) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.002093] (-) TimerEvent: {}
+[1.102864] (-) TimerEvent: {}
+[1.120508] (flare) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[1.123104] (flare) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.203072] (-) TimerEvent: {}
+[1.303538] (-) TimerEvent: {}
+[1.349009] (flare) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.384874] (controller) StdoutLine: {'line': b'-- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[1.403673] (-) TimerEvent: {}
+[1.471344] (controller) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[1.473909] (controller) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.503825] (-) TimerEvent: {}
+[1.604327] (-) TimerEvent: {}
+[1.640988] (flare) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[1.690189] (controller) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.704579] (-) TimerEvent: {}
+[1.805139] (-) TimerEvent: {}
+[1.905719] (-) TimerEvent: {}
+[1.927972] (controller) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[2.005967] (-) TimerEvent: {}
+[2.106579] (-) TimerEvent: {}
+[2.163721] (flare) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[2.206726] (-) TimerEvent: {}
+[2.307273] (-) TimerEvent: {}
+[2.407762] (-) TimerEvent: {}
+[2.444095] (controller) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[2.507904] (-) TimerEvent: {}
+[2.608423] (-) TimerEvent: {}
+[2.708957] (-) TimerEvent: {}
+[2.809512] (-) TimerEvent: {}
+[2.910055] (-) TimerEvent: {}
+[2.958445] (flare) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[3.010223] (-) TimerEvent: {}
+[3.110847] (-) TimerEvent: {}
+[3.134679] (controller) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[3.211109] (-) TimerEvent: {}
+[3.257534] (flare) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[3.303251] (flare) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[3.311242] (-) TimerEvent: {}
+[3.348098] (flare) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[3.348416] (flare) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[3.348529] (flare) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[3.379715] (controller) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[3.404159] (flare) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[3.411354] (-) TimerEvent: {}
+[3.421844] (flare) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[3.422890] (flare) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[3.423159] (flare) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[3.423945] (flare) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[3.425254] (flare) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[3.425596] (flare) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[3.426064] (controller) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[3.426339] (flare) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[3.429727] (flare) StdoutLine: {'line': b'-- Configuring done\n'}
+[3.473613] (controller) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[3.473966] (controller) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[3.474152] (controller) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[3.489998] (flare) StdoutLine: {'line': b'-- Generating done\n'}
+[3.495204] (flare) StdoutLine: {'line': b'-- Build files have been written to: /home/gilang/MagangBanyu/build/flare\n'}
+[3.501542] (controller) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[3.510854] (flare) CommandEnded: {'returncode': 0}
+[3.514809] (-) TimerEvent: {}
+[3.515081] (flare) JobProgress: {'identifier': 'flare', 'progress': 'build'}
+[3.515155] (flare) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/gilang/MagangBanyu/build/flare', '--', '-j12', '-l12'], 'cwd': '/home/gilang/MagangBanyu/build/flare', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'gilang'), ('LC_TIME', 'id_ID.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/gilang/ros2_ws/install/pub_controller/lib:/home/gilang/ros2_ws/install/opencv/lib:/home/gilang/ros2_ws/install/flare/lib:/home/gilang/ros2_ws/install/controller/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/gilang'), ('OLDPWD', '/home/gilang'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'id_ID.UTF-8'), ('MANAGERPID', '1125'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1256'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=dce0118f2d01286cf8b60ff665e0d094'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/gilang/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'gilang'), ('JOURNAL_STREAM', '8:30065'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'gilang'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/gilang/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/gilang-LOQ-15IRH8:@/tmp/.ICE-unix/1256,unix/gilang-LOQ-15IRH8:/tmp/.ICE-unix/1256'), ('INVOCATION_ID', 'd8dbffc2657643a4b0f4826da91ab576'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'id_ID.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'id_ID.UTF-8'), ('TILIX_ID', 'f890c430-efc7-45a1-945d-e09b23fa79d7'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.OJOBK2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/gilang/ros2_ws/install/pub_controller:/home/gilang/ros2_ws/install/opencv:/home/gilang/ros2_ws/install/joystick_ros2:/home/gilang/ros2_ws/install/flare:/home/gilang/ros2_ws/install/cpp_pubsub:/home/gilang/ros2_ws/install/controller:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'id_ID.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'id_ID.UTF-8'), ('LC_IDENTIFICATION', 'id_ID.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/gilang/MagangBanyu/build/flare'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=dce0118f2d01286cf8b60ff665e0d094'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/gilang/ros2_ws/install/pub_controller/local/lib/python3.10/dist-packages:/home/gilang/ros2_ws/install/opencv/local/lib/python3.10/dist-packages:/home/gilang/ros2_ws/install/joystick_ros2/lib/python3.10/site-packages:/home/gilang/ros2_ws/install/flare/local/lib/python3.10/dist-packages:/home/gilang/ros2_ws/install/controller/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'id_ID.UTF-8'), ('LC_PAPER', 'id_ID.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/gilang/ros2_ws/install/pub_controller:/home/gilang/ros2_ws/install/opencv:/home/gilang/ros2_ws/install/flare:/home/gilang/ros2_ws/install/cpp_pubsub:/home/gilang/ros2_ws/install/controller:/home/gilang/ros2_ws/install/joystick_ros2:/opt/ros/humble')]), 'shell': False}
+[3.519398] (controller) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[3.520399] (controller) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[3.520721] (controller) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[3.521368] (controller) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[3.522509] (controller) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[3.522705] (controller) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[3.523040] (controller) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[3.527259] (controller) StdoutLine: {'line': b'-- Configuring done\n'}
+[3.587588] (controller) StdoutLine: {'line': b'-- Generating done\n'}
+[3.591433] (flare) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target flare__rosidl_generator_c\x1b[0m\n'}
+[3.593518] (controller) StdoutLine: {'line': b'-- Build files have been written to: /home/gilang/MagangBanyu/build/controller\n'}
+[3.606690] (flare) StdoutLine: {'line': b'[  3%] Built target flare__cpp\n'}
+[3.611255] (controller) CommandEnded: {'returncode': 0}
+[3.613795] (controller) JobProgress: {'identifier': 'controller', 'progress': 'build'}
+[3.614755] (controller) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/gilang/MagangBanyu/build/controller', '--', '-j12', '-l12'], 'cwd': '/home/gilang/MagangBanyu/build/controller', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'gilang'), ('LC_TIME', 'id_ID.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/gilang/ros2_ws/install/pub_controller/lib:/home/gilang/ros2_ws/install/opencv/lib:/home/gilang/ros2_ws/install/flare/lib:/home/gilang/ros2_ws/install/controller/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/gilang'), ('OLDPWD', '/home/gilang'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'id_ID.UTF-8'), ('MANAGERPID', '1125'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1256'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=dce0118f2d01286cf8b60ff665e0d094'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/gilang/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'gilang'), ('JOURNAL_STREAM', '8:30065'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'gilang'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/gilang/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/gilang-LOQ-15IRH8:@/tmp/.ICE-unix/1256,unix/gilang-LOQ-15IRH8:/tmp/.ICE-unix/1256'), ('INVOCATION_ID', 'd8dbffc2657643a4b0f4826da91ab576'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'id_ID.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'id_ID.UTF-8'), ('TILIX_ID', 'f890c430-efc7-45a1-945d-e09b23fa79d7'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.OJOBK2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/gilang/ros2_ws/install/pub_controller:/home/gilang/ros2_ws/install/opencv:/home/gilang/ros2_ws/install/joystick_ros2:/home/gilang/ros2_ws/install/flare:/home/gilang/ros2_ws/install/cpp_pubsub:/home/gilang/ros2_ws/install/controller:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'id_ID.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'id_ID.UTF-8'), ('LC_IDENTIFICATION', 'id_ID.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/gilang/MagangBanyu/build/controller'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=dce0118f2d01286cf8b60ff665e0d094'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/gilang/ros2_ws/install/pub_controller/local/lib/python3.10/dist-packages:/home/gilang/ros2_ws/install/opencv/local/lib/python3.10/dist-packages:/home/gilang/ros2_ws/install/joystick_ros2/lib/python3.10/site-packages:/home/gilang/ros2_ws/install/flare/local/lib/python3.10/dist-packages:/home/gilang/ros2_ws/install/controller/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'id_ID.UTF-8'), ('LC_PAPER', 'id_ID.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/gilang/ros2_ws/install/pub_controller:/home/gilang/ros2_ws/install/opencv:/home/gilang/ros2_ws/install/flare:/home/gilang/ros2_ws/install/cpp_pubsub:/home/gilang/ros2_ws/install/controller:/home/gilang/ros2_ws/install/joystick_ros2:/opt/ros/humble')]), 'shell': False}
+[3.616772] (-) TimerEvent: {}
+[3.618382] (flare) StdoutLine: {'line': b'[ 12%] Built target flare__rosidl_generator_c\n'}
+[3.628006] (flare) StdoutLine: {'line': b'[ 12%] Built target ament_cmake_python_symlink_flare\n'}
+[3.629420] (flare) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target flare__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[3.631563] (flare) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target flare__rosidl_typesupport_cpp\x1b[0m\n'}
+[3.634117] (flare) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target flare__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[3.643762] (flare) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target flare__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[3.644323] (flare) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target flare__rosidl_typesupport_c\x1b[0m\n'}
+[3.644565] (flare) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target flare__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[3.665446] (flare) StdoutLine: {'line': b'[ 21%] Built target flare__rosidl_typesupport_fastrtps_cpp\n'}
+[3.666636] (flare) StdoutLine: {'line': b'[ 30%] Built target flare__rosidl_typesupport_cpp\n'}
+[3.672142] (flare) StdoutLine: {'line': b'[ 48%] Built target flare__rosidl_typesupport_introspection_c\n'}
+[3.672827] (flare) StdoutLine: {'line': b'[ 48%] Built target flare__rosidl_typesupport_introspection_cpp\n'}
+[3.674907] (flare) StdoutLine: {'line': b'[ 57%] Built target flare__rosidl_typesupport_c\n'}
+[3.682306] (flare) StdoutLine: {'line': b'[ 66%] Built target flare__rosidl_typesupport_fastrtps_c\n'}
+[3.691395] (flare) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target detect\x1b[0m\n'}
+[3.716820] (controller) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target controller__rosidl_generator_c\x1b[0m\n'}
+[3.717205] (-) TimerEvent: {}
+[3.728984] (flare) StdoutLine: {'line': b'[ 66%] Built target flare\n'}
+[3.731067] (flare) StdoutLine: {'line': b'[ 72%] Built target detect\n'}
+[3.739738] (controller) StdoutLine: {'line': b'[  9%] Built target controller__rosidl_generator_c\n'}
+[3.740176] (controller) StdoutLine: {'line': b'[ 12%] Built target controller__cpp\n'}
+[3.761116] (controller) StdoutLine: {'line': b'[ 12%] Built target ament_cmake_python_symlink_controller\n'}
+[3.763536] (controller) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target controller__rosidl_typesupport_c\x1b[0m\n'}
+[3.764468] (controller) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target controller__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[3.767589] (controller) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target controller__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[3.770027] (controller) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target controller__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[3.783131] (flare) StdoutLine: {'line': b'[ 75%] Built target flare__py\n'}
+[3.789375] (controller) StdoutLine: {'line': b'[ 21%] Built target controller__rosidl_typesupport_c\n'}
+[3.789890] (controller) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target controller__rosidl_typesupport_cpp\x1b[0m\n'}
+[3.792950] (controller) StdoutLine: {'line': b'[ 30%] Built target controller__rosidl_typesupport_introspection_c\n'}
+[3.798212] (controller) StdoutLine: {'line': b'[ 39%] Built target controller__rosidl_typesupport_fastrtps_c\n'}
+[3.804724] (controller) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target controller__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[3.806542] (controller) StdoutLine: {'line': b'[ 48%] Built target controller__rosidl_typesupport_introspection_cpp\n'}
+[3.808824] (flare) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target flare__rosidl_generator_py\x1b[0m\n'}
+[3.817344] (-) TimerEvent: {}
+[3.819592] (controller) StdoutLine: {'line': b'[ 57%] Built target controller__rosidl_typesupport_cpp\n'}
+[3.835981] (flare) StdoutLine: {'line': b'[ 81%] Built target flare__rosidl_generator_py\n'}
+[3.837447] (controller) StdoutLine: {'line': b'[ 66%] Built target controller__rosidl_typesupport_fastrtps_cpp\n'}
+[3.844481] (controller) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target publisher\x1b[0m\n'}
+[3.860594] (flare) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target flare__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[3.863319] (flare) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target flare__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[3.863701] (flare) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target flare__rosidl_typesupport_introspection_c__pyext\x1b[0m\n'}
+[3.889098] (controller) StdoutLine: {'line': b'[ 69%] \x1b[32mBuilding CXX object CMakeFiles/publisher.dir/src/robot_controller.cpp.o\x1b[0m\n'}
+[3.889922] (flare) StdoutLine: {'line': b'[ 87%] Built target flare__rosidl_typesupport_fastrtps_c__pyext\n'}
+[3.890269] (controller) StdoutLine: {'line': b'[ 69%] Built target controller\n'}
+[3.891247] (flare) StdoutLine: {'line': b'[ 93%] Built target flare__rosidl_typesupport_introspection_c__pyext\n'}
+[3.891875] (flare) StdoutLine: {'line': b'[100%] Built target flare__rosidl_typesupport_c__pyext\n'}
+[3.917534] (-) TimerEvent: {}
+[3.929830] (controller) StdoutLine: {'line': b'[ 72%] Built target controller__py\n'}
+[3.952463] (controller) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target controller__rosidl_generator_py\x1b[0m\n'}
+[3.977234] (controller) StdoutLine: {'line': b'[ 78%] Built target controller__rosidl_generator_py\n'}
+[4.000913] (controller) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target controller__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[4.001412] (controller) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target controller__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[4.001796] (controller) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target controller__rosidl_typesupport_introspection_c__pyext\x1b[0m\n'}
+[4.017712] (-) TimerEvent: {}
+[4.027847] (controller) StdoutLine: {'line': b'[ 84%] Built target controller__rosidl_typesupport_fastrtps_c__pyext\n'}
+[4.029680] (controller) StdoutLine: {'line': b'[ 90%] Built target controller__rosidl_typesupport_c__pyext\n'}
+[4.030209] (controller) StdoutLine: {'line': b'[ 96%] Built target controller__rosidl_typesupport_introspection_c__pyext\n'}
+[4.086235] (flare) StdoutLine: {'line': b'running egg_info\n'}
+[4.111906] (flare) StdoutLine: {'line': b'writing flare.egg-info/PKG-INFO\n'}
+[4.112746] (flare) StdoutLine: {'line': b'writing dependency_links to flare.egg-info/dependency_links.txt\n'}
+[4.113234] (flare) StdoutLine: {'line': b'writing top-level names to flare.egg-info/top_level.txt\n'}
+[4.117780] (-) TimerEvent: {}
+[4.185029] (flare) StdoutLine: {'line': b"reading manifest file 'flare.egg-info/SOURCES.txt'\n"}
+[4.186137] (flare) StdoutLine: {'line': b"writing manifest file 'flare.egg-info/SOURCES.txt'\n"}
+[4.204474] (controller) StdoutLine: {'line': b'running egg_info\n'}
+[4.217910] (-) TimerEvent: {}
+[4.230859] (controller) StdoutLine: {'line': b'writing controller.egg-info/PKG-INFO\n'}
+[4.231757] (controller) StdoutLine: {'line': b'writing dependency_links to controller.egg-info/dependency_links.txt\n'}
+[4.232229] (controller) StdoutLine: {'line': b'writing top-level names to controller.egg-info/top_level.txt\n'}
+[4.235098] (flare) StdoutLine: {'line': b'[100%] Built target ament_cmake_python_build_flare_egg\n'}
+[4.255565] (flare) CommandEnded: {'returncode': 0}
+[4.305127] (controller) StdoutLine: {'line': b"reading manifest file 'controller.egg-info/SOURCES.txt'\n"}
+[4.306331] (controller) StdoutLine: {'line': b"writing manifest file 'controller.egg-info/SOURCES.txt'\n"}
+[4.318016] (-) TimerEvent: {}
+[4.357923] (controller) StdoutLine: {'line': b'[ 96%] Built target ament_cmake_python_build_controller_egg\n'}
+[4.382804] (flare) JobProgress: {'identifier': 'flare', 'progress': 'install'}
+[4.398453] (flare) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/gilang/MagangBanyu/build/flare'], 'cwd': '/home/gilang/MagangBanyu/build/flare', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'gilang'), ('LC_TIME', 'id_ID.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/gilang/ros2_ws/install/pub_controller/lib:/home/gilang/ros2_ws/install/opencv/lib:/home/gilang/ros2_ws/install/flare/lib:/home/gilang/ros2_ws/install/controller/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/gilang'), ('OLDPWD', '/home/gilang'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'id_ID.UTF-8'), ('MANAGERPID', '1125'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1256'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=dce0118f2d01286cf8b60ff665e0d094'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/gilang/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'gilang'), ('JOURNAL_STREAM', '8:30065'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'gilang'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/gilang/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/gilang-LOQ-15IRH8:@/tmp/.ICE-unix/1256,unix/gilang-LOQ-15IRH8:/tmp/.ICE-unix/1256'), ('INVOCATION_ID', 'd8dbffc2657643a4b0f4826da91ab576'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'id_ID.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'id_ID.UTF-8'), ('TILIX_ID', 'f890c430-efc7-45a1-945d-e09b23fa79d7'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.OJOBK2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/gilang/ros2_ws/install/pub_controller:/home/gilang/ros2_ws/install/opencv:/home/gilang/ros2_ws/install/joystick_ros2:/home/gilang/ros2_ws/install/flare:/home/gilang/ros2_ws/install/cpp_pubsub:/home/gilang/ros2_ws/install/controller:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'id_ID.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'id_ID.UTF-8'), ('LC_IDENTIFICATION', 'id_ID.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/gilang/MagangBanyu/build/flare'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=dce0118f2d01286cf8b60ff665e0d094'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/gilang/ros2_ws/install/pub_controller/local/lib/python3.10/dist-packages:/home/gilang/ros2_ws/install/opencv/local/lib/python3.10/dist-packages:/home/gilang/ros2_ws/install/joystick_ros2/lib/python3.10/site-packages:/home/gilang/ros2_ws/install/flare/local/lib/python3.10/dist-packages:/home/gilang/ros2_ws/install/controller/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'id_ID.UTF-8'), ('LC_PAPER', 'id_ID.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/gilang/ros2_ws/install/pub_controller:/home/gilang/ros2_ws/install/opencv:/home/gilang/ros2_ws/install/flare:/home/gilang/ros2_ws/install/cpp_pubsub:/home/gilang/ros2_ws/install/controller:/home/gilang/ros2_ws/install/joystick_ros2:/opt/ros/humble')]), 'shell': False}
+[4.412429] (flare) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[4.413694] (flare) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[4.414193] (flare) StdoutLine: {'line': b'-- Up-to-date symlink: /home/gilang/MagangBanyu/install/flare/share/ament_index/resource_index/rosidl_interfaces/flare\n'}
+[4.414651] (flare) StdoutLine: {'line': b'-- Up-to-date symlink: /home/gilang/MagangBanyu/install/flare/include/flare/flare/msg/color.h\n'}
+[4.414908] (flare) StdoutLine: {'line': b'-- Up-to-date symlink: /home/gilang/MagangBanyu/install/flare/include/flare/flare/msg/detail/color__functions.h\n'}
+[4.415326] (flare) StdoutLine: {'line': b'-- Up-to-date symlink: /home/gilang/MagangBanyu/install/flare/include/flare/flare/msg/detail/color__struct.h\n'}
+[4.415809] (flare) StdoutLine: {'line': b'-- Up-to-date symlink: /home/gilang/MagangBanyu/install/flare/include/flare/flare/msg/detail/color__type_support.h\n'}
+[4.416052] (flare) StdoutLine: {'line': b'-- Up-to-date symlink: /home/gilang/MagangBanyu/install/flare/include/flare/flare/msg/rosidl_generator_c__visibility_control.h\n'}
+[4.416397] (flare) StdoutLine: {'line': b'-- Up-to-date symlink: /home/gilang/MagangBanyu/install/flare/share/flare/environment/library_path.sh\n'}
+[4.416582] (flare) StdoutLine: {'line': b'-- Up-to-date symlink: /home/gilang/MagangBanyu/install/flare/share/flare/environment/library_path.dsv\n'}
+[4.416879] (flare) StdoutLine: {'line': b'-- Up-to-date symlink: /home/gilang/MagangBanyu/install/flare/include/flare/flare/msg/detail/color__rosidl_typesupport_fastrtps_c.h\n'}
+[4.417195] (flare) StdoutLine: {'line': b'-- Up-to-date symlink: /home/gilang/MagangBanyu/install/flare/include/flare/flare/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[4.417439] (flare) StdoutLine: {'line': b'-- Up-to-date symlink: /home/gilang/MagangBanyu/install/flare/include/flare/flare/msg/color.hpp\n'}
+[4.417675] (flare) StdoutLine: {'line': b'-- Up-to-date symlink: /home/gilang/MagangBanyu/install/flare/include/flare/flare/msg/detail/color__builder.hpp\n'}
+[4.417876] (flare) StdoutLine: {'line': b'-- Up-to-date symlink: /home/gilang/MagangBanyu/install/flare/include/flare/flare/msg/detail/color__struct.hpp\n'}
+[4.418029] (-) TimerEvent: {}
+[4.418302] (flare) StdoutLine: {'line': b'-- Up-to-date symlink: /home/gilang/MagangBanyu/install/flare/include/flare/flare/msg/detail/color__traits.hpp\n'}
+[4.418636] (flare) StdoutLine: {'line': b'-- Up-to-date symlink: /home/gilang/MagangBanyu/install/flare/include/flare/flare/msg/detail/color__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[4.418837] (flare) StdoutLine: {'line': b'-- Up-to-date symlink: /home/gilang/MagangBanyu/install/flare/include/flare/flare/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[4.419143] (flare) StdoutLine: {'line': b'-- Up-to-date symlink: /home/gilang/MagangBanyu/install/flare/include/flare/flare/msg/detail/color__rosidl_typesupport_introspection_c.h\n'}
+[4.419353] (flare) StdoutLine: {'line': b'-- Up-to-date symlink: /home/gilang/MagangBanyu/install/flare/include/flare/flare/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[4.419717] (flare) StdoutLine: {'line': b'-- Up-to-date symlink: /home/gilang/MagangBanyu/install/flare/include/flare/flare/msg/detail/color__rosidl_typesupport_introspection_cpp.hpp\n'}
+[4.420060] (flare) StdoutLine: {'line': b'-- Up-to-date symlink: /home/gilang/MagangBanyu/install/flare/share/flare/environment/pythonpath.sh\n'}
+[4.420319] (flare) StdoutLine: {'line': b'-- Up-to-date symlink: /home/gilang/MagangBanyu/install/flare/share/flare/environment/pythonpath.dsv\n'}
+[4.420554] (flare) StdoutLine: {'line': b'-- Up-to-date symlink: /home/gilang/MagangBanyu/install/flare/local/lib/python3.10/dist-packages/flare-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[4.420777] (flare) StdoutLine: {'line': b'-- Up-to-date symlink: /home/gilang/MagangBanyu/install/flare/local/lib/python3.10/dist-packages/flare-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[4.420967] (flare) StdoutLine: {'line': b'-- Up-to-date symlink: /home/gilang/MagangBanyu/install/flare/local/lib/python3.10/dist-packages/flare-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[4.421124] (flare) StdoutLine: {'line': b'-- Up-to-date symlink: /home/gilang/MagangBanyu/install/flare/local/lib/python3.10/dist-packages/flare-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[4.421655] (flare) StdoutLine: {'line': b'-- Up-to-date symlink: /home/gilang/MagangBanyu/install/flare/local/lib/python3.10/dist-packages/flare/__init__.py\n'}
+[4.421849] (flare) StdoutLine: {'line': b'-- Up-to-date symlink: /home/gilang/MagangBanyu/install/flare/local/lib/python3.10/dist-packages/flare/_flare_s.ep.rosidl_typesupport_c.c\n'}
+[4.422034] (flare) StdoutLine: {'line': b'-- Up-to-date symlink: /home/gilang/MagangBanyu/install/flare/local/lib/python3.10/dist-packages/flare/_flare_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[4.422268] (flare) StdoutLine: {'line': b'-- Up-to-date symlink: /home/gilang/MagangBanyu/install/flare/local/lib/python3.10/dist-packages/flare/_flare_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[4.422457] (flare) StdoutLine: {'line': b'-- Up-to-date symlink: /home/gilang/MagangBanyu/install/flare/local/lib/python3.10/dist-packages/flare/flare_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[4.422691] (flare) StdoutLine: {'line': b'-- Up-to-date symlink: /home/gilang/MagangBanyu/install/flare/local/lib/python3.10/dist-packages/flare/flare_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[4.422879] (flare) StdoutLine: {'line': b'-- Up-to-date symlink: /home/gilang/MagangBanyu/install/flare/local/lib/python3.10/dist-packages/flare/flare_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[4.423109] (flare) StdoutLine: {'line': b'-- Up-to-date symlink: /home/gilang/MagangBanyu/install/flare/local/lib/python3.10/dist-packages/flare/libflare__rosidl_generator_py.so\n'}
+[4.423268] (flare) StdoutLine: {'line': b'-- Up-to-date symlink: /home/gilang/MagangBanyu/install/flare/local/lib/python3.10/dist-packages/flare/msg/__init__.py\n'}
+[4.423423] (flare) StdoutLine: {'line': b'-- Up-to-date symlink: /home/gilang/MagangBanyu/install/flare/local/lib/python3.10/dist-packages/flare/msg/_color.py\n'}
+[4.423615] (flare) StdoutLine: {'line': b'-- Up-to-date symlink: /home/gilang/MagangBanyu/install/flare/local/lib/python3.10/dist-packages/flare/msg/_color_s.c\n'}
+[4.423771] (flare) StdoutLine: {'line': b'-- Up-to-date symlink: /home/gilang/MagangBanyu/install/flare/local/lib/python3.10/dist-packages/flare/flare_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[4.423957] (flare) StdoutLine: {'line': b'-- Up-to-date symlink: /home/gilang/MagangBanyu/install/flare/local/lib/python3.10/dist-packages/flare/flare_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[4.424245] (flare) StdoutLine: {'line': b'-- Up-to-date symlink: /home/gilang/MagangBanyu/install/flare/local/lib/python3.10/dist-packages/flare/flare_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[4.424493] (flare) StdoutLine: {'line': b'-- Up-to-date symlink: /home/gilang/MagangBanyu/install/flare/share/flare/msg/Color.idl\n'}
+[4.424703] (flare) StdoutLine: {'line': b'-- Up-to-date symlink: /home/gilang/MagangBanyu/install/flare/share/flare/msg/Color.msg\n'}
+[4.425055] (flare) StdoutLine: {'line': b'-- Up-to-date symlink: /home/gilang/MagangBanyu/install/flare/lib/flare/detect\n'}
+[4.425293] (flare) StdoutLine: {'line': b'-- Up-to-date symlink: /home/gilang/MagangBanyu/install/flare/share/ament_index/resource_index/package_run_dependencies/flare\n'}
+[4.425509] (flare) StdoutLine: {'line': b'-- Up-to-date symlink: /home/gilang/MagangBanyu/install/flare/share/ament_index/resource_index/parent_prefix_path/flare\n'}
+[4.425725] (flare) StdoutLine: {'line': b'-- Up-to-date symlink: /home/gilang/MagangBanyu/install/flare/share/flare/environment/ament_prefix_path.sh\n'}
+[4.425923] (flare) StdoutLine: {'line': b'-- Up-to-date symlink: /home/gilang/MagangBanyu/install/flare/share/flare/environment/ament_prefix_path.dsv\n'}
+[4.426133] (flare) StdoutLine: {'line': b'-- Up-to-date symlink: /home/gilang/MagangBanyu/install/flare/share/flare/environment/path.sh\n'}
+[4.426391] (flare) StdoutLine: {'line': b'-- Up-to-date symlink: /home/gilang/MagangBanyu/install/flare/share/flare/environment/path.dsv\n'}
+[4.426597] (flare) StdoutLine: {'line': b'-- Up-to-date symlink: /home/gilang/MagangBanyu/install/flare/share/flare/local_setup.bash\n'}
+[4.426785] (flare) StdoutLine: {'line': b'-- Up-to-date symlink: /home/gilang/MagangBanyu/install/flare/share/flare/local_setup.sh\n'}
+[4.426968] (flare) StdoutLine: {'line': b'-- Up-to-date symlink: /home/gilang/MagangBanyu/install/flare/share/flare/local_setup.zsh\n'}
+[4.427259] (flare) StdoutLine: {'line': b'-- Up-to-date symlink: /home/gilang/MagangBanyu/install/flare/share/flare/local_setup.dsv\n'}
+[4.427422] (flare) StdoutLine: {'line': b'-- Symlinking: /home/gilang/MagangBanyu/install/flare/share/flare/package.dsv\n'}
+[4.442488] (flare) StdoutLine: {'line': b'-- Up-to-date symlink: /home/gilang/MagangBanyu/install/flare/share/ament_index/resource_index/packages/flare\n'}
+[4.442866] (flare) StdoutLine: {'line': b'-- Up-to-date symlink: /home/gilang/MagangBanyu/install/flare/share/flare/cmake/rosidl_cmake-extras.cmake\n'}
+[4.443098] (flare) StdoutLine: {'line': b'-- Up-to-date symlink: /home/gilang/MagangBanyu/install/flare/share/flare/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[4.443267] (flare) StdoutLine: {'line': b'-- Up-to-date symlink: /home/gilang/MagangBanyu/install/flare/share/flare/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[4.443549] (flare) StdoutLine: {'line': b'-- Up-to-date symlink: /home/gilang/MagangBanyu/install/flare/share/flare/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[4.443950] (flare) StdoutLine: {'line': b'-- Up-to-date symlink: /home/gilang/MagangBanyu/install/flare/share/flare/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[4.444197] (flare) StdoutLine: {'line': b'-- Up-to-date symlink: /home/gilang/MagangBanyu/install/flare/share/flare/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[4.444556] (flare) StdoutLine: {'line': b'-- Up-to-date symlink: /home/gilang/MagangBanyu/install/flare/share/flare/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[4.444812] (flare) StdoutLine: {'line': b'-- Up-to-date symlink: /home/gilang/MagangBanyu/install/flare/share/flare/cmake/flareConfig.cmake\n'}
+[4.445001] (flare) StdoutLine: {'line': b'-- Up-to-date symlink: /home/gilang/MagangBanyu/install/flare/share/flare/cmake/flareConfig-version.cmake\n'}
+[4.445248] (flare) StdoutLine: {'line': b'-- Up-to-date symlink: /home/gilang/MagangBanyu/install/flare/share/flare/package.xml\n'}
+[4.445444] (flare) StdoutLine: {'line': b'-- Up-to-date: /home/gilang/MagangBanyu/install/flare/lib/libflare__rosidl_generator_c.so\n'}
+[4.445724] (flare) StdoutLine: {'line': b'-- Up-to-date: /home/gilang/MagangBanyu/install/flare/lib/libflare__rosidl_typesupport_fastrtps_c.so\n'}
+[4.445935] (flare) StdoutLine: {'line': b'-- Up-to-date: /home/gilang/MagangBanyu/install/flare/lib/libflare__rosidl_typesupport_fastrtps_cpp.so\n'}
+[4.446094] (flare) StdoutLine: {'line': b'-- Up-to-date: /home/gilang/MagangBanyu/install/flare/lib/libflare__rosidl_typesupport_introspection_c.so\n'}
+[4.446279] (flare) StdoutLine: {'line': b'-- Up-to-date: /home/gilang/MagangBanyu/install/flare/lib/libflare__rosidl_typesupport_c.so\n'}
+[4.446487] (flare) StdoutLine: {'line': b'-- Up-to-date: /home/gilang/MagangBanyu/install/flare/lib/libflare__rosidl_typesupport_introspection_cpp.so\n'}
+[4.446773] (flare) StdoutLine: {'line': b'-- Up-to-date: /home/gilang/MagangBanyu/install/flare/lib/libflare__rosidl_typesupport_cpp.so\n'}
+[4.512929] (flare) StdoutLine: {'line': b"Listing '/home/gilang/MagangBanyu/install/flare/local/lib/python3.10/dist-packages/flare'...\n"}
+[4.513259] (flare) StdoutLine: {'line': b"Compiling '/home/gilang/MagangBanyu/install/flare/local/lib/python3.10/dist-packages/flare/__init__.py'...\n"}
+[4.513437] (flare) StdoutLine: {'line': b"Listing '/home/gilang/MagangBanyu/install/flare/local/lib/python3.10/dist-packages/flare/msg'...\n"}
+[4.518210] (-) TimerEvent: {}
+[4.521743] (flare) StdoutLine: {'line': b'-- Up-to-date: /home/gilang/MagangBanyu/install/flare/lib/libflare__rosidl_generator_py.so\n'}
+[4.522278] (flare) StdoutLine: {'line': b'-- Up-to-date: /home/gilang/MagangBanyu/install/flare/share/flare/cmake/export_flare__rosidl_generator_cExport.cmake\n'}
+[4.522590] (flare) StdoutLine: {'line': b'-- Up-to-date: /home/gilang/MagangBanyu/install/flare/share/flare/cmake/export_flare__rosidl_generator_cExport-noconfig.cmake\n'}
+[4.522858] (flare) StdoutLine: {'line': b'-- Up-to-date: /home/gilang/MagangBanyu/install/flare/share/flare/cmake/export_flare__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[4.523095] (flare) StdoutLine: {'line': b'-- Up-to-date: /home/gilang/MagangBanyu/install/flare/share/flare/cmake/export_flare__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[4.523336] (flare) StdoutLine: {'line': b'-- Up-to-date: /home/gilang/MagangBanyu/install/flare/share/flare/cmake/export_flare__rosidl_generator_cppExport.cmake\n'}
+[4.523505] (flare) StdoutLine: {'line': b'-- Up-to-date: /home/gilang/MagangBanyu/install/flare/share/flare/cmake/export_flare__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[4.523671] (flare) StdoutLine: {'line': b'-- Up-to-date: /home/gilang/MagangBanyu/install/flare/share/flare/cmake/export_flare__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[4.523830] (flare) StdoutLine: {'line': b'-- Up-to-date: /home/gilang/MagangBanyu/install/flare/share/flare/cmake/flare__rosidl_typesupport_introspection_cExport.cmake\n'}
+[4.523989] (flare) StdoutLine: {'line': b'-- Up-to-date: /home/gilang/MagangBanyu/install/flare/share/flare/cmake/flare__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[4.524144] (flare) StdoutLine: {'line': b'-- Up-to-date: /home/gilang/MagangBanyu/install/flare/share/flare/cmake/flare__rosidl_typesupport_cExport.cmake\n'}
+[4.524297] (flare) StdoutLine: {'line': b'-- Up-to-date: /home/gilang/MagangBanyu/install/flare/share/flare/cmake/flare__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[4.524450] (flare) StdoutLine: {'line': b'-- Up-to-date: /home/gilang/MagangBanyu/install/flare/share/flare/cmake/flare__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[4.524603] (flare) StdoutLine: {'line': b'-- Up-to-date: /home/gilang/MagangBanyu/install/flare/share/flare/cmake/flare__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[4.524758] (flare) StdoutLine: {'line': b'-- Up-to-date: /home/gilang/MagangBanyu/install/flare/share/flare/cmake/flare__rosidl_typesupport_cppExport.cmake\n'}
+[4.524913] (flare) StdoutLine: {'line': b'-- Up-to-date: /home/gilang/MagangBanyu/install/flare/share/flare/cmake/flare__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[4.525068] (flare) StdoutLine: {'line': b'-- Up-to-date: /home/gilang/MagangBanyu/install/flare/share/flare/cmake/export_flare__rosidl_generator_pyExport.cmake\n'}
+[4.525229] (flare) StdoutLine: {'line': b'-- Up-to-date: /home/gilang/MagangBanyu/install/flare/share/flare/cmake/export_flare__rosidl_generator_pyExport-noconfig.cmake\n'}
+[4.526816] (flare) CommandEnded: {'returncode': 0}
+[4.620051] (-) TimerEvent: {}
+[4.720535] (-) TimerEvent: {}
+[4.821473] (-) TimerEvent: {}
+[4.887894] (flare) JobEnded: {'identifier': 'flare', 'rc': 0}
+[4.921659] (-) TimerEvent: {}
+[5.022181] (-) TimerEvent: {}
+[5.122830] (-) TimerEvent: {}
+[5.223527] (-) TimerEvent: {}
+[5.324068] (-) TimerEvent: {}
+[5.424661] (-) TimerEvent: {}
+[5.525176] (-) TimerEvent: {}
+[5.625769] (-) TimerEvent: {}
+[5.726282] (-) TimerEvent: {}
+[5.826818] (-) TimerEvent: {}
+[5.927340] (-) TimerEvent: {}
+[6.028106] (-) TimerEvent: {}
+[6.128626] (-) TimerEvent: {}
+[6.229151] (-) TimerEvent: {}
+[6.329700] (-) TimerEvent: {}
+[6.430262] (-) TimerEvent: {}
+[6.530790] (-) TimerEvent: {}
+[6.631402] (-) TimerEvent: {}
+[6.731912] (-) TimerEvent: {}
+[6.832378] (-) TimerEvent: {}
+[6.932868] (-) TimerEvent: {}
+[7.033339] (-) TimerEvent: {}
+[7.133906] (-) TimerEvent: {}
+[7.234484] (-) TimerEvent: {}
+[7.335172] (-) TimerEvent: {}
+[7.435796] (-) TimerEvent: {}
+[7.536484] (-) TimerEvent: {}
+[7.637260] (-) TimerEvent: {}
+[7.738100] (-) TimerEvent: {}
+[7.838905] (-) TimerEvent: {}
+[7.939567] (-) TimerEvent: {}
+[8.040062] (-) TimerEvent: {}
+[8.140608] (-) TimerEvent: {}
+[8.241134] (-) TimerEvent: {}
+[8.341610] (-) TimerEvent: {}
+[8.442123] (-) TimerEvent: {}
+[8.542639] (-) TimerEvent: {}
+[8.643205] (-) TimerEvent: {}
+[8.743706] (-) TimerEvent: {}
+[8.844099] (-) TimerEvent: {}
+[8.944628] (-) TimerEvent: {}
+[9.045095] (-) TimerEvent: {}
+[9.145610] (-) TimerEvent: {}
+[9.246104] (-) TimerEvent: {}
+[9.346531] (-) TimerEvent: {}
+[9.447105] (-) TimerEvent: {}
+[9.547586] (-) TimerEvent: {}
+[9.648030] (-) TimerEvent: {}
+[9.748600] (-) TimerEvent: {}
+[9.849083] (-) TimerEvent: {}
+[9.949640] (-) TimerEvent: {}
+[10.050192] (-) TimerEvent: {}
+[10.150736] (-) TimerEvent: {}
+[10.251249] (-) TimerEvent: {}
+[10.351698] (-) TimerEvent: {}
+[10.452255] (-) TimerEvent: {}
+[10.552762] (-) TimerEvent: {}
+[10.653202] (-) TimerEvent: {}
+[10.753790] (-) TimerEvent: {}
+[10.854280] (-) TimerEvent: {}
+[10.954813] (-) TimerEvent: {}
+[11.055546] (-) TimerEvent: {}
+[11.156252] (-) TimerEvent: {}
+[11.256881] (-) TimerEvent: {}
+[11.357446] (-) TimerEvent: {}
+[11.458052] (-) TimerEvent: {}
+[11.558627] (-) TimerEvent: {}
+[11.659222] (-) TimerEvent: {}
+[11.759731] (-) TimerEvent: {}
+[11.860338] (-) TimerEvent: {}
+[11.960895] (-) TimerEvent: {}
+[12.061433] (-) TimerEvent: {}
+[12.161926] (-) TimerEvent: {}
+[12.262371] (-) TimerEvent: {}
+[12.362892] (-) TimerEvent: {}
+[12.463391] (-) TimerEvent: {}
+[12.563894] (-) TimerEvent: {}
+[12.664522] (-) TimerEvent: {}
+[12.765104] (-) TimerEvent: {}
+[12.865673] (-) TimerEvent: {}
+[12.966480] (-) TimerEvent: {}
+[13.067403] (-) TimerEvent: {}
+[13.168179] (-) TimerEvent: {}
+[13.268822] (-) TimerEvent: {}
+[13.369624] (-) TimerEvent: {}
+[13.470458] (-) TimerEvent: {}
+[13.571307] (-) TimerEvent: {}
+[13.672004] (-) TimerEvent: {}
+[13.772838] (-) TimerEvent: {}
+[13.873565] (-) TimerEvent: {}
+[13.974361] (-) TimerEvent: {}
+[14.074901] (-) TimerEvent: {}
+[14.175348] (-) TimerEvent: {}
+[14.275719] (-) TimerEvent: {}
+[14.376157] (-) TimerEvent: {}
+[14.476592] (-) TimerEvent: {}
+[14.577040] (-) TimerEvent: {}
+[14.677510] (-) TimerEvent: {}
+[14.777959] (-) TimerEvent: {}
+[14.878467] (-) TimerEvent: {}
+[14.978976] (-) TimerEvent: {}
+[15.079485] (-) TimerEvent: {}
+[15.179973] (-) TimerEvent: {}
+[15.280471] (-) TimerEvent: {}
+[15.380958] (-) TimerEvent: {}
+[15.481460] (-) TimerEvent: {}
+[15.581945] (-) TimerEvent: {}
+[15.682435] (-) TimerEvent: {}
+[15.782950] (-) TimerEvent: {}
+[15.883383] (-) TimerEvent: {}
+[15.983727] (-) TimerEvent: {}
+[16.084123] (-) TimerEvent: {}
+[16.184492] (-) TimerEvent: {}
+[16.284910] (-) TimerEvent: {}
+[16.385349] (-) TimerEvent: {}
+[16.485749] (-) TimerEvent: {}
+[16.586154] (-) TimerEvent: {}
+[16.686591] (-) TimerEvent: {}
+[16.786980] (-) TimerEvent: {}
+[16.887305] (-) TimerEvent: {}
+[16.987654] (-) TimerEvent: {}
+[17.088102] (-) TimerEvent: {}
+[17.188523] (-) TimerEvent: {}
+[17.226333] (controller) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable publisher\x1b[0m\n'}
+[17.288721] (-) TimerEvent: {}
+[17.389130] (-) TimerEvent: {}
+[17.489597] (-) TimerEvent: {}
+[17.590230] (-) TimerEvent: {}
+[17.691156] (-) TimerEvent: {}
+[17.791941] (-) TimerEvent: {}
+[17.892802] (-) TimerEvent: {}
+[17.993735] (-) TimerEvent: {}
+[18.094809] (-) TimerEvent: {}
+[18.195676] (-) TimerEvent: {}
+[18.202270] (controller) StdoutLine: {'line': b'[100%] Built target publisher\n'}
+[18.243455] (controller) CommandEnded: {'returncode': 0}
+[18.295933] (-) TimerEvent: {}
+[18.396862] (-) TimerEvent: {}
+[18.455476] (controller) JobProgress: {'identifier': 'controller', 'progress': 'install'}
+[18.457709] (controller) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/gilang/MagangBanyu/build/controller'], 'cwd': '/home/gilang/MagangBanyu/build/controller', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'gilang'), ('LC_TIME', 'id_ID.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/gilang/ros2_ws/install/pub_controller/lib:/home/gilang/ros2_ws/install/opencv/lib:/home/gilang/ros2_ws/install/flare/lib:/home/gilang/ros2_ws/install/controller/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/gilang'), ('OLDPWD', '/home/gilang'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'id_ID.UTF-8'), ('MANAGERPID', '1125'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1256'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=dce0118f2d01286cf8b60ff665e0d094'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/gilang/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'gilang'), ('JOURNAL_STREAM', '8:30065'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'gilang'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/gilang/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/gilang-LOQ-15IRH8:@/tmp/.ICE-unix/1256,unix/gilang-LOQ-15IRH8:/tmp/.ICE-unix/1256'), ('INVOCATION_ID', 'd8dbffc2657643a4b0f4826da91ab576'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'id_ID.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'id_ID.UTF-8'), ('TILIX_ID', 'f890c430-efc7-45a1-945d-e09b23fa79d7'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.OJOBK2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/gilang/ros2_ws/install/pub_controller:/home/gilang/ros2_ws/install/opencv:/home/gilang/ros2_ws/install/joystick_ros2:/home/gilang/ros2_ws/install/flare:/home/gilang/ros2_ws/install/cpp_pubsub:/home/gilang/ros2_ws/install/controller:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'id_ID.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'id_ID.UTF-8'), ('LC_IDENTIFICATION', 'id_ID.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/gilang/MagangBanyu/build/controller'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=dce0118f2d01286cf8b60ff665e0d094'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/gilang/ros2_ws/install/pub_controller/local/lib/python3.10/dist-packages:/home/gilang/ros2_ws/install/opencv/local/lib/python3.10/dist-packages:/home/gilang/ros2_ws/install/joystick_ros2/lib/python3.10/site-packages:/home/gilang/ros2_ws/install/flare/local/lib/python3.10/dist-packages:/home/gilang/ros2_ws/install/controller/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'id_ID.UTF-8'), ('LC_PAPER', 'id_ID.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/gilang/ros2_ws/install/pub_controller:/home/gilang/ros2_ws/install/opencv:/home/gilang/ros2_ws/install/flare:/home/gilang/ros2_ws/install/cpp_pubsub:/home/gilang/ros2_ws/install/controller:/home/gilang/ros2_ws/install/joystick_ros2:/opt/ros/humble')]), 'shell': False}
+[18.469758] (controller) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[18.470595] (controller) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[18.470841] (controller) StdoutLine: {'line': b'-- Up-to-date symlink: /home/gilang/MagangBanyu/install/controller/share/ament_index/resource_index/rosidl_interfaces/controller\n'}
+[18.471354] (controller) StdoutLine: {'line': b'-- Up-to-date symlink: /home/gilang/MagangBanyu/install/controller/include/controller/controller/msg/detail/motion__functions.h\n'}
+[18.471567] (controller) StdoutLine: {'line': b'-- Up-to-date symlink: /home/gilang/MagangBanyu/install/controller/include/controller/controller/msg/detail/motion__struct.h\n'}
+[18.471790] (controller) StdoutLine: {'line': b'-- Up-to-date symlink: /home/gilang/MagangBanyu/install/controller/include/controller/controller/msg/detail/motion__type_support.h\n'}
+[18.471973] (controller) StdoutLine: {'line': b'-- Up-to-date symlink: /home/gilang/MagangBanyu/install/controller/include/controller/controller/msg/motion.h\n'}
+[18.472065] (controller) StdoutLine: {'line': b'-- Up-to-date symlink: /home/gilang/MagangBanyu/install/controller/include/controller/controller/msg/rosidl_generator_c__visibility_control.h\n'}
+[18.472200] (controller) StdoutLine: {'line': b'-- Up-to-date symlink: /home/gilang/MagangBanyu/install/controller/share/controller/environment/library_path.sh\n'}
+[18.472300] (controller) StdoutLine: {'line': b'-- Up-to-date symlink: /home/gilang/MagangBanyu/install/controller/share/controller/environment/library_path.dsv\n'}
+[18.472553] (controller) StdoutLine: {'line': b'-- Up-to-date symlink: /home/gilang/MagangBanyu/install/controller/include/controller/controller/msg/detail/motion__rosidl_typesupport_fastrtps_c.h\n'}
+[18.472743] (controller) StdoutLine: {'line': b'-- Up-to-date symlink: /home/gilang/MagangBanyu/install/controller/include/controller/controller/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[18.473147] (controller) StdoutLine: {'line': b'-- Up-to-date symlink: /home/gilang/MagangBanyu/install/controller/include/controller/controller/msg/detail/motion__builder.hpp\n'}
+[18.473379] (controller) StdoutLine: {'line': b'-- Up-to-date symlink: /home/gilang/MagangBanyu/install/controller/include/controller/controller/msg/detail/motion__struct.hpp\n'}
+[18.473474] (controller) StdoutLine: {'line': b'-- Up-to-date symlink: /home/gilang/MagangBanyu/install/controller/include/controller/controller/msg/detail/motion__traits.hpp\n'}
+[18.473601] (controller) StdoutLine: {'line': b'-- Up-to-date symlink: /home/gilang/MagangBanyu/install/controller/include/controller/controller/msg/motion.hpp\n'}
+[18.473827] (controller) StdoutLine: {'line': b'-- Up-to-date symlink: /home/gilang/MagangBanyu/install/controller/include/controller/controller/msg/detail/motion__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[18.473941] (controller) StdoutLine: {'line': b'-- Up-to-date symlink: /home/gilang/MagangBanyu/install/controller/include/controller/controller/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[18.474361] (controller) StdoutLine: {'line': b'-- Up-to-date symlink: /home/gilang/MagangBanyu/install/controller/include/controller/controller/msg/detail/motion__rosidl_typesupport_introspection_c.h\n'}
+[18.474480] (controller) StdoutLine: {'line': b'-- Up-to-date symlink: /home/gilang/MagangBanyu/install/controller/include/controller/controller/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[18.474851] (controller) StdoutLine: {'line': b'-- Up-to-date symlink: /home/gilang/MagangBanyu/install/controller/include/controller/controller/msg/detail/motion__rosidl_typesupport_introspection_cpp.hpp\n'}
+[18.475073] (controller) StdoutLine: {'line': b'-- Up-to-date symlink: /home/gilang/MagangBanyu/install/controller/share/controller/environment/pythonpath.sh\n'}
+[18.475255] (controller) StdoutLine: {'line': b'-- Up-to-date symlink: /home/gilang/MagangBanyu/install/controller/share/controller/environment/pythonpath.dsv\n'}
+[18.475650] (controller) StdoutLine: {'line': b'-- Up-to-date symlink: /home/gilang/MagangBanyu/install/controller/local/lib/python3.10/dist-packages/controller-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[18.475771] (controller) StdoutLine: {'line': b'-- Up-to-date symlink: /home/gilang/MagangBanyu/install/controller/local/lib/python3.10/dist-packages/controller-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[18.475885] (controller) StdoutLine: {'line': b'-- Up-to-date symlink: /home/gilang/MagangBanyu/install/controller/local/lib/python3.10/dist-packages/controller-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[18.476008] (controller) StdoutLine: {'line': b'-- Up-to-date symlink: /home/gilang/MagangBanyu/install/controller/local/lib/python3.10/dist-packages/controller-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[18.476705] (controller) StdoutLine: {'line': b'-- Up-to-date symlink: /home/gilang/MagangBanyu/install/controller/local/lib/python3.10/dist-packages/controller/__init__.py\n'}
+[18.476825] (controller) StdoutLine: {'line': b'-- Up-to-date symlink: /home/gilang/MagangBanyu/install/controller/local/lib/python3.10/dist-packages/controller/_controller_s.ep.rosidl_typesupport_c.c\n'}
+[18.476939] (controller) StdoutLine: {'line': b'-- Up-to-date symlink: /home/gilang/MagangBanyu/install/controller/local/lib/python3.10/dist-packages/controller/_controller_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[18.477052] (controller) StdoutLine: {'line': b'-- Up-to-date symlink: /home/gilang/MagangBanyu/install/controller/local/lib/python3.10/dist-packages/controller/_controller_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[18.477190] (controller) StdoutLine: {'line': b'-- Up-to-date symlink: /home/gilang/MagangBanyu/install/controller/local/lib/python3.10/dist-packages/controller/controller_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[18.477389] (controller) StdoutLine: {'line': b'-- Up-to-date symlink: /home/gilang/MagangBanyu/install/controller/local/lib/python3.10/dist-packages/controller/controller_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[18.477528] (controller) StdoutLine: {'line': b'-- Up-to-date symlink: /home/gilang/MagangBanyu/install/controller/local/lib/python3.10/dist-packages/controller/controller_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[18.477672] (controller) StdoutLine: {'line': b'-- Up-to-date symlink: /home/gilang/MagangBanyu/install/controller/local/lib/python3.10/dist-packages/controller/libcontroller__rosidl_generator_py.so\n'}
+[18.477816] (controller) StdoutLine: {'line': b'-- Up-to-date symlink: /home/gilang/MagangBanyu/install/controller/local/lib/python3.10/dist-packages/controller/msg/__init__.py\n'}
+[18.477936] (controller) StdoutLine: {'line': b'-- Up-to-date symlink: /home/gilang/MagangBanyu/install/controller/local/lib/python3.10/dist-packages/controller/msg/_motion.py\n'}
+[18.478054] (controller) StdoutLine: {'line': b'-- Up-to-date symlink: /home/gilang/MagangBanyu/install/controller/local/lib/python3.10/dist-packages/controller/msg/_motion_s.c\n'}
+[18.478297] (controller) StdoutLine: {'line': b'-- Up-to-date symlink: /home/gilang/MagangBanyu/install/controller/local/lib/python3.10/dist-packages/controller/controller_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[18.478620] (controller) StdoutLine: {'line': b'-- Up-to-date symlink: /home/gilang/MagangBanyu/install/controller/local/lib/python3.10/dist-packages/controller/controller_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[18.478925] (controller) StdoutLine: {'line': b'-- Up-to-date symlink: /home/gilang/MagangBanyu/install/controller/local/lib/python3.10/dist-packages/controller/controller_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[18.479164] (controller) StdoutLine: {'line': b'-- Up-to-date symlink: /home/gilang/MagangBanyu/install/controller/share/controller/msg/Motion.idl\n'}
+[18.479350] (controller) StdoutLine: {'line': b'-- Up-to-date symlink: /home/gilang/MagangBanyu/install/controller/share/controller/msg/Motion.msg\n'}
+[18.479683] (controller) StdoutLine: {'line': b'-- Up-to-date symlink: /home/gilang/MagangBanyu/install/controller/lib/controller/publisher\n'}
+[18.479881] (controller) StdoutLine: {'line': b'-- Up-to-date symlink: /home/gilang/MagangBanyu/install/controller/share/ament_index/resource_index/package_run_dependencies/controller\n'}
+[18.480080] (controller) StdoutLine: {'line': b'-- Up-to-date symlink: /home/gilang/MagangBanyu/install/controller/share/ament_index/resource_index/parent_prefix_path/controller\n'}
+[18.480272] (controller) StdoutLine: {'line': b'-- Up-to-date symlink: /home/gilang/MagangBanyu/install/controller/share/controller/environment/ament_prefix_path.sh\n'}
+[18.480444] (controller) StdoutLine: {'line': b'-- Up-to-date symlink: /home/gilang/MagangBanyu/install/controller/share/controller/environment/ament_prefix_path.dsv\n'}
+[18.480615] (controller) StdoutLine: {'line': b'-- Up-to-date symlink: /home/gilang/MagangBanyu/install/controller/share/controller/environment/path.sh\n'}
+[18.480784] (controller) StdoutLine: {'line': b'-- Up-to-date symlink: /home/gilang/MagangBanyu/install/controller/share/controller/environment/path.dsv\n'}
+[18.480951] (controller) StdoutLine: {'line': b'-- Up-to-date symlink: /home/gilang/MagangBanyu/install/controller/share/controller/local_setup.bash\n'}
+[18.481115] (controller) StdoutLine: {'line': b'-- Up-to-date symlink: /home/gilang/MagangBanyu/install/controller/share/controller/local_setup.sh\n'}
+[18.481282] (controller) StdoutLine: {'line': b'-- Up-to-date symlink: /home/gilang/MagangBanyu/install/controller/share/controller/local_setup.zsh\n'}
+[18.481438] (controller) StdoutLine: {'line': b'-- Up-to-date symlink: /home/gilang/MagangBanyu/install/controller/share/controller/local_setup.dsv\n'}
+[18.481561] (controller) StdoutLine: {'line': b'-- Symlinking: /home/gilang/MagangBanyu/install/controller/share/controller/package.dsv\n'}
+[18.497042] (-) TimerEvent: {}
+[18.497543] (controller) StdoutLine: {'line': b'-- Up-to-date symlink: /home/gilang/MagangBanyu/install/controller/share/ament_index/resource_index/packages/controller\n'}
+[18.498009] (controller) StdoutLine: {'line': b'-- Up-to-date symlink: /home/gilang/MagangBanyu/install/controller/share/controller/cmake/rosidl_cmake-extras.cmake\n'}
+[18.498166] (controller) StdoutLine: {'line': b'-- Up-to-date symlink: /home/gilang/MagangBanyu/install/controller/share/controller/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[18.498260] (controller) StdoutLine: {'line': b'-- Up-to-date symlink: /home/gilang/MagangBanyu/install/controller/share/controller/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[18.498432] (controller) StdoutLine: {'line': b'-- Up-to-date symlink: /home/gilang/MagangBanyu/install/controller/share/controller/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[18.498561] (controller) StdoutLine: {'line': b'-- Up-to-date symlink: /home/gilang/MagangBanyu/install/controller/share/controller/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[18.498684] (controller) StdoutLine: {'line': b'-- Up-to-date symlink: /home/gilang/MagangBanyu/install/controller/share/controller/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[18.498807] (controller) StdoutLine: {'line': b'-- Up-to-date symlink: /home/gilang/MagangBanyu/install/controller/share/controller/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[18.498931] (controller) StdoutLine: {'line': b'-- Up-to-date symlink: /home/gilang/MagangBanyu/install/controller/share/controller/cmake/controllerConfig.cmake\n'}
+[18.499062] (controller) StdoutLine: {'line': b'-- Up-to-date symlink: /home/gilang/MagangBanyu/install/controller/share/controller/cmake/controllerConfig-version.cmake\n'}
+[18.499187] (controller) StdoutLine: {'line': b'-- Up-to-date symlink: /home/gilang/MagangBanyu/install/controller/share/controller/package.xml\n'}
+[18.499418] (controller) StdoutLine: {'line': b'-- Up-to-date: /home/gilang/MagangBanyu/install/controller/lib/libcontroller__rosidl_generator_c.so\n'}
+[18.499764] (controller) StdoutLine: {'line': b'-- Up-to-date: /home/gilang/MagangBanyu/install/controller/lib/libcontroller__rosidl_typesupport_fastrtps_c.so\n'}
+[18.500085] (controller) StdoutLine: {'line': b'-- Up-to-date: /home/gilang/MagangBanyu/install/controller/lib/libcontroller__rosidl_typesupport_fastrtps_cpp.so\n'}
+[18.500388] (controller) StdoutLine: {'line': b'-- Up-to-date: /home/gilang/MagangBanyu/install/controller/lib/libcontroller__rosidl_typesupport_introspection_c.so\n'}
+[18.500670] (controller) StdoutLine: {'line': b'-- Up-to-date: /home/gilang/MagangBanyu/install/controller/lib/libcontroller__rosidl_typesupport_c.so\n'}
+[18.500959] (controller) StdoutLine: {'line': b'-- Up-to-date: /home/gilang/MagangBanyu/install/controller/lib/libcontroller__rosidl_typesupport_introspection_cpp.so\n'}
+[18.501253] (controller) StdoutLine: {'line': b'-- Up-to-date: /home/gilang/MagangBanyu/install/controller/lib/libcontroller__rosidl_typesupport_cpp.so\n'}
+[18.565024] (controller) StdoutLine: {'line': b"Listing '/home/gilang/MagangBanyu/install/controller/local/lib/python3.10/dist-packages/controller'...\n"}
+[18.565350] (controller) StdoutLine: {'line': b"Compiling '/home/gilang/MagangBanyu/install/controller/local/lib/python3.10/dist-packages/controller/__init__.py'...\n"}
+[18.565467] (controller) StdoutLine: {'line': b"Listing '/home/gilang/MagangBanyu/install/controller/local/lib/python3.10/dist-packages/controller/msg'...\n"}
+[18.574277] (controller) StdoutLine: {'line': b'-- Up-to-date: /home/gilang/MagangBanyu/install/controller/lib/libcontroller__rosidl_generator_py.so\n'}
+[18.574735] (controller) StdoutLine: {'line': b'-- Up-to-date: /home/gilang/MagangBanyu/install/controller/share/controller/cmake/export_controller__rosidl_generator_cExport.cmake\n'}
+[18.574864] (controller) StdoutLine: {'line': b'-- Up-to-date: /home/gilang/MagangBanyu/install/controller/share/controller/cmake/export_controller__rosidl_generator_cExport-noconfig.cmake\n'}
+[18.575263] (controller) StdoutLine: {'line': b'-- Up-to-date: /home/gilang/MagangBanyu/install/controller/share/controller/cmake/export_controller__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[18.575640] (controller) StdoutLine: {'line': b'-- Up-to-date: /home/gilang/MagangBanyu/install/controller/share/controller/cmake/export_controller__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[18.575848] (controller) StdoutLine: {'line': b'-- Up-to-date: /home/gilang/MagangBanyu/install/controller/share/controller/cmake/export_controller__rosidl_generator_cppExport.cmake\n'}
+[18.575993] (controller) StdoutLine: {'line': b'-- Up-to-date: /home/gilang/MagangBanyu/install/controller/share/controller/cmake/export_controller__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[18.576170] (controller) StdoutLine: {'line': b'-- Up-to-date: /home/gilang/MagangBanyu/install/controller/share/controller/cmake/export_controller__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[18.576304] (controller) StdoutLine: {'line': b'-- Up-to-date: /home/gilang/MagangBanyu/install/controller/share/controller/cmake/controller__rosidl_typesupport_introspection_cExport.cmake\n'}
+[18.576426] (controller) StdoutLine: {'line': b'-- Up-to-date: /home/gilang/MagangBanyu/install/controller/share/controller/cmake/controller__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[18.576551] (controller) StdoutLine: {'line': b'-- Up-to-date: /home/gilang/MagangBanyu/install/controller/share/controller/cmake/controller__rosidl_typesupport_cExport.cmake\n'}
+[18.576688] (controller) StdoutLine: {'line': b'-- Up-to-date: /home/gilang/MagangBanyu/install/controller/share/controller/cmake/controller__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[18.576811] (controller) StdoutLine: {'line': b'-- Up-to-date: /home/gilang/MagangBanyu/install/controller/share/controller/cmake/controller__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[18.576938] (controller) StdoutLine: {'line': b'-- Up-to-date: /home/gilang/MagangBanyu/install/controller/share/controller/cmake/controller__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[18.577124] (controller) StdoutLine: {'line': b'-- Up-to-date: /home/gilang/MagangBanyu/install/controller/share/controller/cmake/controller__rosidl_typesupport_cppExport.cmake\n'}
+[18.577276] (controller) StdoutLine: {'line': b'-- Up-to-date: /home/gilang/MagangBanyu/install/controller/share/controller/cmake/controller__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[18.577444] (controller) StdoutLine: {'line': b'-- Up-to-date: /home/gilang/MagangBanyu/install/controller/share/controller/cmake/export_controller__rosidl_generator_pyExport.cmake\n'}
+[18.577617] (controller) StdoutLine: {'line': b'-- Up-to-date: /home/gilang/MagangBanyu/install/controller/share/controller/cmake/export_controller__rosidl_generator_pyExport-noconfig.cmake\n'}
+[18.581055] (controller) CommandEnded: {'returncode': 0}
+[18.598107] (-) TimerEvent: {}
+[18.699066] (-) TimerEvent: {}
+[18.799578] (-) TimerEvent: {}
+[18.900482] (-) TimerEvent: {}
+[18.973722] (controller) JobEnded: {'identifier': 'controller', 'rc': 0}
+[18.974319] (-) EventReactorShutdown: {}

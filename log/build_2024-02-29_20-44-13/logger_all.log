@@ -1,0 +1,235 @@
+[1.154s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[1.154s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=12, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7fb8e0b346d0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7fb8e0e27130>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7fb8e0e27130>>)
+[1.211s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[1.211s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[1.211s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[1.211s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[1.211s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[1.211s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[1.211s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/gilang/MagangBanyu'
+[1.211s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[1.212s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[1.212s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[1.212s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[1.212s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[1.212s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[1.212s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[1.212s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[1.212s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[1.228s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[1.228s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[1.228s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[1.228s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[1.228s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[1.228s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[1.228s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[1.228s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[1.228s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[1.229s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[1.229s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[1.229s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[1.229s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[1.229s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[1.229s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[1.229s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[1.229s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[1.229s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[1.229s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[1.229s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[1.229s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[1.229s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[1.229s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[1.229s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[1.229s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[1.230s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[1.230s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[1.230s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[1.230s] Level 1:colcon.colcon_core.package_identification:_identify(src/Matlab) by extensions ['ignore', 'ignore_ament_install']
+[1.230s] Level 1:colcon.colcon_core.package_identification:_identify(src/Matlab) by extension 'ignore'
+[1.230s] Level 1:colcon.colcon_core.package_identification:_identify(src/Matlab) by extension 'ignore_ament_install'
+[1.230s] Level 1:colcon.colcon_core.package_identification:_identify(src/Matlab) by extensions ['colcon_pkg']
+[1.230s] Level 1:colcon.colcon_core.package_identification:_identify(src/Matlab) by extension 'colcon_pkg'
+[1.230s] Level 1:colcon.colcon_core.package_identification:_identify(src/Matlab) by extensions ['colcon_meta']
+[1.230s] Level 1:colcon.colcon_core.package_identification:_identify(src/Matlab) by extension 'colcon_meta'
+[1.230s] Level 1:colcon.colcon_core.package_identification:_identify(src/Matlab) by extensions ['ros']
+[1.230s] Level 1:colcon.colcon_core.package_identification:_identify(src/Matlab) by extension 'ros'
+[1.230s] Level 1:colcon.colcon_core.package_identification:_identify(src/Matlab) by extensions ['cmake', 'python']
+[1.230s] Level 1:colcon.colcon_core.package_identification:_identify(src/Matlab) by extension 'cmake'
+[1.230s] Level 1:colcon.colcon_core.package_identification:_identify(src/Matlab) by extension 'python'
+[1.230s] Level 1:colcon.colcon_core.package_identification:_identify(src/Matlab) by extensions ['python_setup_py']
+[1.230s] Level 1:colcon.colcon_core.package_identification:_identify(src/Matlab) by extension 'python_setup_py'
+[1.230s] Level 1:colcon.colcon_core.package_identification:_identify(src/controller) by extensions ['ignore', 'ignore_ament_install']
+[1.230s] Level 1:colcon.colcon_core.package_identification:_identify(src/controller) by extension 'ignore'
+[1.230s] Level 1:colcon.colcon_core.package_identification:_identify(src/controller) by extension 'ignore_ament_install'
+[1.230s] Level 1:colcon.colcon_core.package_identification:_identify(src/controller) by extensions ['colcon_pkg']
+[1.230s] Level 1:colcon.colcon_core.package_identification:_identify(src/controller) by extension 'colcon_pkg'
+[1.230s] Level 1:colcon.colcon_core.package_identification:_identify(src/controller) by extensions ['colcon_meta']
+[1.231s] Level 1:colcon.colcon_core.package_identification:_identify(src/controller) by extension 'colcon_meta'
+[1.231s] Level 1:colcon.colcon_core.package_identification:_identify(src/controller) by extensions ['ros']
+[1.231s] Level 1:colcon.colcon_core.package_identification:_identify(src/controller) by extension 'ros'
+[1.235s] DEBUG:colcon.colcon_core.package_identification:Package 'src/controller' with type 'ros.ament_cmake' and name 'controller'
+[1.235s] Level 1:colcon.colcon_core.package_identification:_identify(src/flare) by extensions ['ignore', 'ignore_ament_install']
+[1.235s] Level 1:colcon.colcon_core.package_identification:_identify(src/flare) by extension 'ignore'
+[1.235s] Level 1:colcon.colcon_core.package_identification:_identify(src/flare) by extension 'ignore_ament_install'
+[1.235s] Level 1:colcon.colcon_core.package_identification:_identify(src/flare) by extensions ['colcon_pkg']
+[1.236s] Level 1:colcon.colcon_core.package_identification:_identify(src/flare) by extension 'colcon_pkg'
+[1.236s] Level 1:colcon.colcon_core.package_identification:_identify(src/flare) by extensions ['colcon_meta']
+[1.236s] Level 1:colcon.colcon_core.package_identification:_identify(src/flare) by extension 'colcon_meta'
+[1.236s] Level 1:colcon.colcon_core.package_identification:_identify(src/flare) by extensions ['ros']
+[1.236s] Level 1:colcon.colcon_core.package_identification:_identify(src/flare) by extension 'ros'
+[1.238s] DEBUG:colcon.colcon_core.package_identification:Package 'src/flare' with type 'ros.ament_cmake' and name 'flare'
+[1.238s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[1.238s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[1.238s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[1.238s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[1.239s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[1.383s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[1.383s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[1.413s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 7 installed packages in /home/gilang/ros2_ws/install
+[1.429s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 282 installed packages in /opt/ros/humble
+[1.430s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[1.510s] Level 5:colcon.colcon_core.verb:set package 'controller' build argument 'cmake_args' from command line to 'None'
+[1.510s] Level 5:colcon.colcon_core.verb:set package 'controller' build argument 'cmake_target' from command line to 'None'
+[1.510s] Level 5:colcon.colcon_core.verb:set package 'controller' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.510s] Level 5:colcon.colcon_core.verb:set package 'controller' build argument 'cmake_clean_cache' from command line to 'False'
+[1.510s] Level 5:colcon.colcon_core.verb:set package 'controller' build argument 'cmake_clean_first' from command line to 'False'
+[1.510s] Level 5:colcon.colcon_core.verb:set package 'controller' build argument 'cmake_force_configure' from command line to 'False'
+[1.510s] Level 5:colcon.colcon_core.verb:set package 'controller' build argument 'ament_cmake_args' from command line to 'None'
+[1.510s] Level 5:colcon.colcon_core.verb:set package 'controller' build argument 'catkin_cmake_args' from command line to 'None'
+[1.510s] Level 5:colcon.colcon_core.verb:set package 'controller' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.510s] DEBUG:colcon.colcon_core.verb:Building package 'controller' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/gilang/MagangBanyu/build/controller', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/gilang/MagangBanyu/install/controller', 'merge_install': False, 'path': '/home/gilang/MagangBanyu/src/controller', 'symlink_install': False, 'test_result_base': None}
+[1.525s] Level 5:colcon.colcon_core.verb:set package 'flare' build argument 'cmake_args' from command line to 'None'
+[1.526s] Level 5:colcon.colcon_core.verb:set package 'flare' build argument 'cmake_target' from command line to 'None'
+[1.526s] Level 5:colcon.colcon_core.verb:set package 'flare' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.526s] Level 5:colcon.colcon_core.verb:set package 'flare' build argument 'cmake_clean_cache' from command line to 'False'
+[1.526s] Level 5:colcon.colcon_core.verb:set package 'flare' build argument 'cmake_clean_first' from command line to 'False'
+[1.526s] Level 5:colcon.colcon_core.verb:set package 'flare' build argument 'cmake_force_configure' from command line to 'False'
+[1.526s] Level 5:colcon.colcon_core.verb:set package 'flare' build argument 'ament_cmake_args' from command line to 'None'
+[1.526s] Level 5:colcon.colcon_core.verb:set package 'flare' build argument 'catkin_cmake_args' from command line to 'None'
+[1.526s] Level 5:colcon.colcon_core.verb:set package 'flare' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.526s] DEBUG:colcon.colcon_core.verb:Building package 'flare' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/gilang/MagangBanyu/build/flare', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/gilang/MagangBanyu/install/flare', 'merge_install': False, 'path': '/home/gilang/MagangBanyu/src/flare', 'symlink_install': False, 'test_result_base': None}
+[1.539s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[1.553s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[1.553s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/gilang/MagangBanyu/src/controller' with build type 'ament_cmake'
+[1.553s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/gilang/MagangBanyu/src/controller'
+[1.573s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.574s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.574s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.628s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/gilang/MagangBanyu/src/flare' with build type 'ament_cmake'
+[1.628s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/gilang/MagangBanyu/src/flare'
+[1.645s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.645s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.715s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/gilang/MagangBanyu/build/controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/gilang/ros2_ws/install/joystick_ros2:/opt/ros/humble /usr/bin/cmake --build /home/gilang/MagangBanyu/build/controller -- -j12 -l12
+[1.722s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/gilang/MagangBanyu/build/flare': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/gilang/ros2_ws/install/joystick_ros2:/opt/ros/humble /usr/bin/cmake --build /home/gilang/MagangBanyu/build/flare -- -j12 -l12
+[2.486s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/gilang/MagangBanyu/build/flare' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/gilang/ros2_ws/install/joystick_ros2:/opt/ros/humble /usr/bin/cmake --build /home/gilang/MagangBanyu/build/flare -- -j12 -l12
+[2.500s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/gilang/MagangBanyu/build/controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/gilang/ros2_ws/install/joystick_ros2:/opt/ros/humble /usr/bin/cmake --build /home/gilang/MagangBanyu/build/controller -- -j12 -l12
+[2.619s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/gilang/MagangBanyu/build/flare': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/gilang/ros2_ws/install/joystick_ros2:/opt/ros/humble /usr/bin/cmake --install /home/gilang/MagangBanyu/build/flare
+[2.622s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/gilang/MagangBanyu/build/controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/gilang/ros2_ws/install/joystick_ros2:/opt/ros/humble /usr/bin/cmake --install /home/gilang/MagangBanyu/build/controller
+[2.749s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(flare)
+[2.752s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/gilang/MagangBanyu/build/flare' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/gilang/ros2_ws/install/joystick_ros2:/opt/ros/humble /usr/bin/cmake --install /home/gilang/MagangBanyu/build/flare
+[2.783s] Level 1:colcon.colcon_core.environment:checking '/home/gilang/MagangBanyu/install/flare' for CMake module files
+[2.785s] Level 1:colcon.colcon_core.environment:checking '/home/gilang/MagangBanyu/install/flare' for CMake config files
+[2.785s] Level 1:colcon.colcon_core.shell:create_environment_hook('flare', 'cmake_prefix_path')
+[2.807s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gilang/MagangBanyu/install/flare/share/flare/hook/cmake_prefix_path.ps1'
+[2.808s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/gilang/MagangBanyu/install/flare/share/flare/hook/cmake_prefix_path.dsv'
+[2.808s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gilang/MagangBanyu/install/flare/share/flare/hook/cmake_prefix_path.sh'
+[2.809s] Level 1:colcon.colcon_core.environment:checking '/home/gilang/MagangBanyu/install/flare/lib'
+[2.810s] Level 1:colcon.colcon_core.shell:create_environment_hook('flare', 'ld_library_path_lib')
+[2.827s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gilang/MagangBanyu/install/flare/share/flare/hook/ld_library_path_lib.ps1'
+[2.827s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/gilang/MagangBanyu/install/flare/share/flare/hook/ld_library_path_lib.dsv'
+[2.828s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gilang/MagangBanyu/install/flare/share/flare/hook/ld_library_path_lib.sh'
+[2.828s] Level 1:colcon.colcon_core.environment:checking '/home/gilang/MagangBanyu/install/flare/bin'
+[2.828s] Level 1:colcon.colcon_core.environment:checking '/home/gilang/MagangBanyu/install/flare/lib/pkgconfig/flare.pc'
+[2.829s] Level 1:colcon.colcon_core.environment:checking '/home/gilang/MagangBanyu/install/flare/lib/python3.10/site-packages'
+[2.829s] Level 1:colcon.colcon_core.environment:checking '/home/gilang/MagangBanyu/install/flare/bin'
+[2.844s] INFO:colcon.colcon_core.shell:Creating package script '/home/gilang/MagangBanyu/install/flare/share/flare/package.ps1'
+[2.844s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/gilang/MagangBanyu/install/flare/share/flare/package.dsv'
+[2.845s] INFO:colcon.colcon_core.shell:Creating package script '/home/gilang/MagangBanyu/install/flare/share/flare/package.sh'
+[2.846s] INFO:colcon.colcon_core.shell:Creating package script '/home/gilang/MagangBanyu/install/flare/share/flare/package.bash'
+[2.846s] INFO:colcon.colcon_core.shell:Creating package script '/home/gilang/MagangBanyu/install/flare/share/flare/package.zsh'
+[2.847s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/gilang/MagangBanyu/install/flare/share/colcon-core/packages/flare)
+[2.849s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(controller)
+[2.849s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/gilang/MagangBanyu/build/controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/gilang/ros2_ws/install/joystick_ros2:/opt/ros/humble /usr/bin/cmake --install /home/gilang/MagangBanyu/build/controller
+[2.869s] Level 1:colcon.colcon_core.environment:checking '/home/gilang/MagangBanyu/install/controller' for CMake module files
+[2.870s] Level 1:colcon.colcon_core.environment:checking '/home/gilang/MagangBanyu/install/controller' for CMake config files
+[2.871s] Level 1:colcon.colcon_core.shell:create_environment_hook('controller', 'cmake_prefix_path')
+[2.890s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gilang/MagangBanyu/install/controller/share/controller/hook/cmake_prefix_path.ps1'
+[2.890s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/gilang/MagangBanyu/install/controller/share/controller/hook/cmake_prefix_path.dsv'
+[2.891s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gilang/MagangBanyu/install/controller/share/controller/hook/cmake_prefix_path.sh'
+[2.892s] Level 1:colcon.colcon_core.environment:checking '/home/gilang/MagangBanyu/install/controller/lib'
+[2.892s] Level 1:colcon.colcon_core.shell:create_environment_hook('controller', 'ld_library_path_lib')
+[2.913s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gilang/MagangBanyu/install/controller/share/controller/hook/ld_library_path_lib.ps1'
+[2.913s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/gilang/MagangBanyu/install/controller/share/controller/hook/ld_library_path_lib.dsv'
+[2.914s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gilang/MagangBanyu/install/controller/share/controller/hook/ld_library_path_lib.sh'
+[2.915s] Level 1:colcon.colcon_core.environment:checking '/home/gilang/MagangBanyu/install/controller/bin'
+[2.915s] Level 1:colcon.colcon_core.environment:checking '/home/gilang/MagangBanyu/install/controller/lib/pkgconfig/controller.pc'
+[2.915s] Level 1:colcon.colcon_core.environment:checking '/home/gilang/MagangBanyu/install/controller/lib/python3.10/site-packages'
+[2.916s] Level 1:colcon.colcon_core.environment:checking '/home/gilang/MagangBanyu/install/controller/bin'
+[2.940s] INFO:colcon.colcon_core.shell:Creating package script '/home/gilang/MagangBanyu/install/controller/share/controller/package.ps1'
+[2.941s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/gilang/MagangBanyu/install/controller/share/controller/package.dsv'
+[2.942s] INFO:colcon.colcon_core.shell:Creating package script '/home/gilang/MagangBanyu/install/controller/share/controller/package.sh'
+[2.943s] INFO:colcon.colcon_core.shell:Creating package script '/home/gilang/MagangBanyu/install/controller/share/controller/package.bash'
+[2.943s] INFO:colcon.colcon_core.shell:Creating package script '/home/gilang/MagangBanyu/install/controller/share/controller/package.zsh'
+[2.944s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/gilang/MagangBanyu/install/controller/share/colcon-core/packages/controller)
+[2.976s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(flare)
+[2.996s] Level 1:colcon.colcon_core.environment:checking '/home/gilang/MagangBanyu/install/flare' for CMake module files
+[2.997s] Level 1:colcon.colcon_core.environment:checking '/home/gilang/MagangBanyu/install/flare' for CMake config files
+[2.997s] Level 1:colcon.colcon_core.shell:create_environment_hook('flare', 'cmake_prefix_path')
+[3.018s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gilang/MagangBanyu/install/flare/share/flare/hook/cmake_prefix_path.ps1'
+[3.019s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/gilang/MagangBanyu/install/flare/share/flare/hook/cmake_prefix_path.dsv'
+[3.020s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gilang/MagangBanyu/install/flare/share/flare/hook/cmake_prefix_path.sh'
+[3.020s] Level 1:colcon.colcon_core.environment:checking '/home/gilang/MagangBanyu/install/flare/lib'
+[3.021s] Level 1:colcon.colcon_core.shell:create_environment_hook('flare', 'ld_library_path_lib')
+[3.039s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gilang/MagangBanyu/install/flare/share/flare/hook/ld_library_path_lib.ps1'
+[3.040s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/gilang/MagangBanyu/install/flare/share/flare/hook/ld_library_path_lib.dsv'
+[3.040s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gilang/MagangBanyu/install/flare/share/flare/hook/ld_library_path_lib.sh'
+[3.041s] Level 1:colcon.colcon_core.environment:checking '/home/gilang/MagangBanyu/install/flare/bin'
+[3.041s] Level 1:colcon.colcon_core.environment:checking '/home/gilang/MagangBanyu/install/flare/lib/pkgconfig/flare.pc'
+[3.041s] Level 1:colcon.colcon_core.environment:checking '/home/gilang/MagangBanyu/install/flare/lib/python3.10/site-packages'
+[3.041s] Level 1:colcon.colcon_core.environment:checking '/home/gilang/MagangBanyu/install/flare/bin'
+[3.064s] INFO:colcon.colcon_core.shell:Creating package script '/home/gilang/MagangBanyu/install/flare/share/flare/package.ps1'
+[3.065s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/gilang/MagangBanyu/install/flare/share/flare/package.dsv'
+[3.065s] INFO:colcon.colcon_core.shell:Creating package script '/home/gilang/MagangBanyu/install/flare/share/flare/package.sh'
+[3.066s] INFO:colcon.colcon_core.shell:Creating package script '/home/gilang/MagangBanyu/install/flare/share/flare/package.bash'
+[3.066s] INFO:colcon.colcon_core.shell:Creating package script '/home/gilang/MagangBanyu/install/flare/share/flare/package.zsh'
+[3.066s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/gilang/MagangBanyu/install/flare/share/colcon-core/packages/flare)
+[3.085s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(controller)
+[3.102s] Level 1:colcon.colcon_core.environment:checking '/home/gilang/MagangBanyu/install/controller' for CMake module files
+[3.103s] Level 1:colcon.colcon_core.environment:checking '/home/gilang/MagangBanyu/install/controller' for CMake config files
+[3.103s] Level 1:colcon.colcon_core.shell:create_environment_hook('controller', 'cmake_prefix_path')
+[3.120s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gilang/MagangBanyu/install/controller/share/controller/hook/cmake_prefix_path.ps1'
+[3.120s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/gilang/MagangBanyu/install/controller/share/controller/hook/cmake_prefix_path.dsv'
+[3.121s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gilang/MagangBanyu/install/controller/share/controller/hook/cmake_prefix_path.sh'
+[3.121s] Level 1:colcon.colcon_core.environment:checking '/home/gilang/MagangBanyu/install/controller/lib'
+[3.121s] Level 1:colcon.colcon_core.shell:create_environment_hook('controller', 'ld_library_path_lib')
+[3.137s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gilang/MagangBanyu/install/controller/share/controller/hook/ld_library_path_lib.ps1'
+[3.137s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/gilang/MagangBanyu/install/controller/share/controller/hook/ld_library_path_lib.dsv'
+[3.137s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gilang/MagangBanyu/install/controller/share/controller/hook/ld_library_path_lib.sh'
+[3.138s] Level 1:colcon.colcon_core.environment:checking '/home/gilang/MagangBanyu/install/controller/bin'
+[3.138s] Level 1:colcon.colcon_core.environment:checking '/home/gilang/MagangBanyu/install/controller/lib/pkgconfig/controller.pc'
+[3.138s] Level 1:colcon.colcon_core.environment:checking '/home/gilang/MagangBanyu/install/controller/lib/python3.10/site-packages'
+[3.138s] Level 1:colcon.colcon_core.environment:checking '/home/gilang/MagangBanyu/install/controller/bin'
+[3.153s] INFO:colcon.colcon_core.shell:Creating package script '/home/gilang/MagangBanyu/install/controller/share/controller/package.ps1'
+[3.153s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/gilang/MagangBanyu/install/controller/share/controller/package.dsv'
+[3.154s] INFO:colcon.colcon_core.shell:Creating package script '/home/gilang/MagangBanyu/install/controller/share/controller/package.sh'
+[3.154s] INFO:colcon.colcon_core.shell:Creating package script '/home/gilang/MagangBanyu/install/controller/share/controller/package.bash'
+[3.155s] INFO:colcon.colcon_core.shell:Creating package script '/home/gilang/MagangBanyu/install/controller/share/controller/package.zsh'
+[3.155s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/gilang/MagangBanyu/install/controller/share/colcon-core/packages/controller)
+[3.155s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[3.156s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[3.156s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[3.156s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[3.183s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[3.183s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[3.184s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[3.202s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[3.230s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/gilang/MagangBanyu/install/local_setup.ps1'
+[3.232s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/gilang/MagangBanyu/install/_local_setup_util_ps1.py'
+[3.235s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/gilang/MagangBanyu/install/setup.ps1'
+[3.259s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/gilang/MagangBanyu/install/local_setup.sh'
+[3.260s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/gilang/MagangBanyu/install/_local_setup_util_sh.py'
+[3.260s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/gilang/MagangBanyu/install/setup.sh'
+[3.286s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/gilang/MagangBanyu/install/local_setup.bash'
+[3.287s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/gilang/MagangBanyu/install/setup.bash'
+[3.313s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/gilang/MagangBanyu/install/local_setup.zsh'
+[3.314s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/gilang/MagangBanyu/install/setup.zsh'

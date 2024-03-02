@@ -13,8 +13,7 @@ using std::placeholders::_1;
 class ControlNode : public rclcpp::Node
 {
 public:
-    ControlNode()
-        : Node("control")
+    ControlNode(): Node("control")
     {
         publisher_ = this->create_publisher<controller::msg::Motion>("motion", 10);
         subscriber_ = this->create_subscription<sensor_msgs::msg::Joy>("joy", 10, std::bind(&ControlNode::joyCallback, this, _1));
